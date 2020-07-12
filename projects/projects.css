@@ -1,0 +1,13 @@
+h1 {
+    text-align: center;
+}
+
+.name{
+    font-family: 'Grenze Gotisch', cursive;
+    font-size: 40px;
+    letter-spacing: 2px;
+}
+
+body {
+    font-family: 'Dosis', sans-serif!important;
+}

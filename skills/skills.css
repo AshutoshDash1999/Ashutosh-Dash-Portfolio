@@ -1,0 +1,32 @@
+img {
+    height:400px;
+    padding:30px;
+    margin-left: 20px;
+}
+
+.progress-skill{
+    width: 500px;
+    
+}
+
+.bg-linux {
+    background-color: #175886!important;
+}
+
+.bg-bootstrap {
+    background-color: #7952b3!important;
+}
+
+.bg-js {
+    background-color: #f8dc3d!important;
+    color: #000000!important;
+}
+.name{
+    font-family: 'Grenze Gotisch', cursive;
+    font-size: 40px;
+    letter-spacing: 2px;
+}
+
+body {
+    font-family: 'Dosis', sans-serif!important;
+}
