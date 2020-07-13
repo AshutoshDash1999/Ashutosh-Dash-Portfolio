@@ -52,6 +52,24 @@ body {
 }
 
 .python {
-    height:70px;
+    height:63px;
     margin-left:10px;
+}
+
+.nav-bg{
+    background-color: #d2cefd;
+    border-radius: 5px;
+}
+
+.container-fluid{
+    margin-top:7px;   
+}
+
+li.nav-item:hover {
+    background-color:#6f6bfa;
+    border-radius: 5px;
+}
+.nav-link:hover{
+    color: #ffffff!important;
+    transition: 0.3s;
 }
