@@ -144,7 +144,6 @@ body{margin-top:20px;}
 
 .certifications {
     padding: 50px;
-    
 }
 
 ul {
@@ -161,4 +160,21 @@ ul {
 
 .card-body {
     margin-left: 150px;
+}
+
+.nav-bg{
+    background-color: #d2cefd;
+    border-radius: 5px;
+    margin-top: 5px;
+    margin-right: 5px;
+    margin-left: 5px;
+}
+
+li.nav-item:hover {
+    background-color:#6f6bfa;
+    border-radius: 5px;
+}
+.nav-link:hover{
+    color: #ffffff!important;
+    transition: 0.3s;
 }
