@@ -52,6 +52,27 @@ body {
     margin-left: 400px;
     margin-right: auto;
     width: 80%;
-    padding: 30px;
-    
+    padding: 30px;    
+}
+.connection{
+    display: block;
+    margin-left: 400px;
+    margin-right: auto;
+    width: 80%;
+    padding: 30px;    
+}
+
+.nav-bg{
+    background-color: #d2cefd;
+    border-radius: 5px;
+    margin-top: 5px;    
+}
+
+li.nav-item:hover {
+    background-color:#6f6bfa;
+    border-radius: 5px;
+}
+.nav-link:hover{
+    color: #ffffff!important;
+    transition: 0.3s;
 }
