@@ -1,6 +1,7 @@
-# My Official portfolio V.2
+# My Official portfolio V.3
 
-Please visit [here](https://ashutoshdash.netlify.app/) to view my portfolio.
 
-### Sample
-![Screencast from 13-07-20 10 13 07 AM IST](https://user-images.githubusercontent.com/46455250/89731145-6d158b00-da62-11ea-9290-7dfdac26a5ff.gif)
+## Reference
+- https://dev.to/devggaurav/let-s-build-a-responsive-navbar-and-hamburger-menu-using-html-css-and-javascript-4gci
+
+- https://fontawesome.com/v5.15/icons/linkedin?style=brands

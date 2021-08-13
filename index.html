@@ -1,127 +1,94 @@
 <!DOCTYPE html>
-<html>
-    <head>
-        <link rel="stylesheet" href="style.css">
-        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
-        <title>Ashutosh Dash</title>
-        <link href="https://fonts.googleapis.com/css2?family=Grenze+Gotisch:wght@700&display=swap" rel="stylesheet">
-        <link href="https://fonts.googleapis.com/css2?family=Dosis:wght@600&display=swap" rel="stylesheet">
-        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"> 
-        
-    </head>    
-    <body class="container-fluid">
-        <div class="navigation-bar">
-            <nav class="navbar navbar-expand-lg navbar-light nav-bg">
-                <a class="navbar-brand" href="#"><span class="name">Ashutosh Dash</span></a>
-                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-                    <span class="navbar-toggler-icon"></span>
-                </button>
-                <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                    <ul class="navbar-nav ml-auto">
-                        <li class="nav-item active">
-                            <a class="nav-link" href="index.html">Home</a>
-                        </li>
-                        <li class="nav-item active">
-                            <a class="nav-link" href="education/education.html">Education</a>
-                        </li>
-                        <li class="nav-item active">
-                            <a class="nav-link" href="skills/skills.html">Skills</a>
-                        </li>
-                        <li class="nav-item active">
-                            <a class="nav-link" href="projects/projects.html">Projects</a>
-                        </li>
-                        <li class="nav-item active">
-                            <a class="nav-link" href="contact-me/contact-me.html">Contact Me</a>
-                        </li>
-                    </ul>
-                 </div>
-                </div>
-            </nav>
-        </div>
-        <section id = "Home">
-            <div class="row column1">
-              <div class="col-lg-6 col-md-6 first-image">
-                  <img class = "environmental-pic" src="images/undraw_environmental_study_skau.svg" alt="">
-              </div>  
-                <div class="col-lg-6 section-1">
-                    <h1 class = "Hello">Hello there, Ashutosh here! <i class="fa fa-hand-peace-o" aria-hidden="true"></i></h1>
-                    <p>
-                        A Bioinformatics student, Machine Learning enthusiast and a learner in the
-                        field of Web Development.<br> I aspire to create products/models which 
-                        can impact society and industry in a sustainable manner.
-                    </p>
-                </div>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ashutosh Dash</title>
+    <!-- Bootstrap  CDN  -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css">
+    <!-- Google Font  -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Neuton:wght@700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Merriweather&display=swap" rel="stylesheet">
+    <!-- Custom CSS  -->
+    <link rel="stylesheet" href="css/style.css">
+    <!-- Favicon  -->
+    <link rel="shortcut icon" href="imgs/favicon.png" type="image/x-icon">
+    <!-- typedjs -->
+    <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
+
+    
+
+
+</head>
+<body>
+       <header class="header">
+        <nav class="navbar">
+            <a href="#" class="nav-logo"><img class="logo" src="imgs/logo.png" alt=""></a>
+            <ul class="nav-menu">
+                <li class="nav-item">
+                    <a href="#" class="nav-link">Skills</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#" class="nav-link">Projects</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#" class="nav-link">Experience</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#" class="nav-link">Contact</a>
+                </li>
+            </ul>
+            <div class="hamburger">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
             </div>
-        </section>
-        <section id=Whatido>
-            <h1>What I Do ?</h1><br>
-              <div class = "row feature-1">
-                  <div class="col-lg-6 col-md-6">
-                    <img class = "analysis-pic" src="images/undraw_predictive_analytics_kf9n.svg" alt="">
-                  </div>
-                  <div class="col-lg-6 col-md-6">
-                    <h1 class= "Feature-Heading" >Python & ML</h1>
-                    <ul class = "">
-                      <li class="">
-                            <img class = "python" src="images/Python-512.png" alt="">
-                      </li>
-                      <li class="">
-                            <img class = "python" src="images/pandas-logo-300.png" alt="">
-                      </li>
-                      <li class="">
-                            <img class = "python" src="images/matplolib-logo.png" alt="">
-                      </li>
-                      <li class="">
-                            <img class = "python" src="images/1200px-Scikit_learn_logo_small.png" alt="">
-                      </li>
-                      
-                    </ul>
-                    <div class = "Data-Analytic">
-                      <p class ="Features-paragraph">
-                         Developing models which help in various predictive analysis including Regression Analysis
-                         and Classification.</p>
-                      <p  class ="Features-paragraph">
-                         Developed various GUI apps using Tkinter; web scraper using Selenium, Requests, Beautiful Soup;
-                         and Data Visualisation using Pandas, Numpy and Matplotlib. <br>
-                         I'll update this section in future since many projects are being run parallely.
-                      </p>
-                    </div>
-                </div>
-              </div>
+        </nav>
+</header>
 
-              <br>
-              <br>
-              <div class = "row feature-2">
-                <div class="col-lg-6 col-md-6">
-                  <h1 class= "Feature-Heading" >Front-End Development</h1>
-                  <ul class = "">
-                    <li class="">
-                          <img class = "html-css-js" src="images/html-css-js.png" alt="">
-                    </li>
-                    <li class="">
-                          <img class = "bootstrap" src="images/bootstrap-icon.png" alt="">
-                    </li>
-                  </ul>
+    <br>
+    <div class="container hero-figure">
+        <div class="row">
+            <div class="col-md-6 text">
+                <h2>Hello,</h2>
+                <h2>I'm <span id="typed"></span></h2>
+                <p>I speacialise in UI development, web development alongwith responsive design. </p>
+                <p class="social-icons">
+                    <a target="_" href="https://www.linkedin.com/in/ashutoshdash1999/">
+                        <img src="imgs/icons8-linkedin.svg" alt="">
+                    </a>
+                    <a target="_" href="https://github.com/AshutoshDash1999">
+                        <img src="imgs/icons8-github.svg" alt="">
+                    </a>
+                    <a target="_" href="mailto:dashashutosh1999@gmail.com">
+                        <img src="imgs/icons8-gmail.svg" alt="">
+                    </a>
+                    <a target="_" href="https://api.whatsapp.com/send/?phone=919348907638&text=Hi%2C+I+went+through+your+profile+and+I+really+like+it.+Would+you+mind+sharing+an+opportunity+with+you+?">
+                        <img src="imgs/icons8-whatsapp.svg" alt="">
+                    </a>
+                    <a target="_" href="https://docs.google.com/document/d/1PsZJWySizrJHAfIcI8zK5f4z2YGFwA2lxmLF_CbTAjM/edit">
+                        <img src="imgs/view_cv.svg" alt="">
+                    </a>
+                </p>
+                
+            </div>
+            <div class="col-md-6 img">
+                <img src="imgs/ashu_pic.png" alt="">
+            </div>
+        </div>
+    </div>
 
-                  <div class = "Data-Analytic">
-                    <p class ="Features-paragraph">
-                       Developing awesome and cool looking website for my clients.</p>
-                    <p  class ="Features-paragraph">
-                       Since its been a little while I have entered into Front-End Development,
-                        I'll update this section later on. Till then you can take a look on the projects I have built till now,
-                        in the Project section. 
-                    </p>
-                  </div>
-                </div>
-                <div class="col-lg-6 col-md-6">
-                  <img class = "website-pic" src="images/undraw_website_setup_5hr2.svg" alt="">
-              </div>
-        <script>
-            alert("Website Under Construction");
-        </script>
-        <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
-        <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"></script>
-        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"></script>
-    </body>
 
+
+
+    
+    <!-- Bootstrap  CDN  -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.bundle.min.js"></script>
+
+    <!-- Custom CSS  -->
+    <script src="js/script.js"></script>
+</body>
 </html>
