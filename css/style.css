@@ -181,7 +181,8 @@ header li{
 
 .skills .row{
     border: 5px solid var(--orange);
-    border-radius: 15px;
+    border-radius: 20px;
+    box-shadow: 10px 10px 15px 3px rgba(0, 0, 0, 0.25);
 }
 
 .skills .row .col-md-6{
@@ -189,7 +190,7 @@ header li{
     text-align: center;
     align-items: center;
     letter-spacing: 0.025em;
-    border-radius: 10px;
+    border-radius: 15px;
 }
 
 .skills .row .col-md-6 h4{
