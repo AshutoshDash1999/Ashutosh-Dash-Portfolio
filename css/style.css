@@ -11,6 +11,19 @@ body{
     font-family: var(--header-font)
 }
 
+body::-webkit-scrollbar {
+  width: 0.25rem;
+}
+
+body::-webkit-scrollbar-track {
+  background: #f5f5f5;
+}
+
+body::-webkit-scrollbar-thumb {
+  background: var(--purple);
+  border-radius: 20px; 
+}
+
 header a{
     text-decoration: none;
 }
