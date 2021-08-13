@@ -79,6 +79,8 @@ header li{
 .nav-link:hover{
     color: var(--purple);
     box-shadow: 0 3px 5px -1px rgba(10, 16, 34, 0.493) !important;
+    background: rgba( 255, 255, 255, 0.80 );
+
 }
 
 @media only screen and (max-width: 768px) {
@@ -87,13 +89,14 @@ header li{
         left: -100%;
         top: 5rem;
         flex-direction: column;
-        background-color: #fff;
+        background: rgba( 255, 255, 255, 0.60 );
         width: 100%;
         border-radius: 10px;
         text-align: center;
         transition: 0.3s;
         box-shadow:
             0 10px 27px rgba(0, 0, 0, 0.05);
+        backdrop-filter: blur( 20.0px );
     }
 
     .nav-menu.active {
@@ -124,7 +127,8 @@ header li{
 }
 
 .hero-figure{
-    height: 100vh;
+    max-height: 100vh;
+    overflow: hidden;
 }
 
 .hero-figure h2{
@@ -152,9 +156,15 @@ header li{
     /* helped in vertically centering */
 }
 
+.hero-figure .social-icons{
+    white-space: nowrap;
+    /* keep the elements in one line with inline block applied to each element */
+}
+
 .hero-figure .social-icons a{
     text-decoration: none;
     padding: 0 20px 0 0;
+    display: inline-block;
 }
 
 .hero-figure .social-icons img{
@@ -167,5 +177,26 @@ header li{
     background: linear-gradient(110deg, var(--orange), var(--purple));
     box-shadow: 0 30px 50px -10px rgba(10, 16, 34, 0.493) !important;
     transform: translate3d(0px, -2px, 0px);
+}
+
+.skills .row{
+    border: 5px solid var(--orange);
+    border-radius: 15px;
+}
+
+.skills .row .col-md-6{
+    border: 1px solid rgb(180, 179, 179);
+    text-align: center;
+    align-items: center;
+    letter-spacing: 0.025em;
+    border-radius: 10px;
+}
+
+.skills .row .col-md-6 h4{
+    color: var(--purple);
+}
+
+.skills .row .col-md-6 p{
+    font-family: var(--paragraph-font);
 }
 
