@@ -5,6 +5,15 @@
     --orange: #ff5500;
 }
 
+/* splash screen css starts here  */
+#loading{
+  position: fixed;
+  width: 100%;
+  height: 100vh;
+  background: linear-gradient(110deg, var(--orange), var(--purple));
+  z-index: 99999;
+}
+
 body{
     margin: 0;
     padding: 0;
