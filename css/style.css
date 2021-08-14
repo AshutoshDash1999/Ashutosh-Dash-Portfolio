@@ -298,9 +298,10 @@ transition-delay:.2s;
 
 .experience img{
     border: 2px solid var(--purple);
-    border-radius: 5px;
-    box-shadow: 1px 1px 5px 1px #475569;
+}
 
+.cocurriculars p{
+    font-family: var(--paragraph-font);
 }
 
 .footer{
