@@ -245,20 +245,19 @@
             
         </div>
         <div class="col-md-6" style="color: #000;">
-            <form name="portfolio-contact" action="https://formspree.io/f/xwkawley"
-  method="POST">
+            <form name="portfolio-contact" method="POST" action="https://formspree.io/f/xwkawley">
 
                 <div class="form-floating mb-3">
-                    <input type="text" class="form-control" id="floatingInput" placeholder="name" required>
+                    <input type="text" class="form-control" name="name" id="floatingInput" placeholder="name" required>
                     <label for="floatingInput">Name</label>
                 </div>
                 <div class="form-floating mb-3">
-                    <input type="email" class="form-control" id="floatingEmail" placeholder="Email" required>
+                    <input type="email" class="form-control" name="email" id="floatingEmail" placeholder="Email" required>
                     <label for="floatingEmail">Email Address</label>
                 </div>
                 <div class="form-floating mb-3">
-                    <textarea class="form-control" placeholder="Leave a comment here" id="floatingTextarea">Hi Ashutosh, I came across your profile and I really liked it. I have a really amazing opportunity. Would you like to discuss it further?
-                    </textarea>
+                    <input type="text" class="form-control" name="comment" placeholder="Leave a comment here" id="floatingTextarea">
+                    </input>
                     <label for="floatingTextarea">Comments</label>
                 </div>
                 <button class="mb-3" type="submit">Send <img src="imgs/icons8-send.svg" alt=""></button>
