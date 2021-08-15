@@ -83,7 +83,7 @@ header li{
 
 }
 
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width: 1225px) {
     .nav-menu {
         position: fixed;
         left: -100%;
@@ -94,8 +94,7 @@ header li{
         border-radius: 10px;
         text-align: center;
         transition: 0.3s;
-        box-shadow:
-            0 10px 27px rgba(0, 0, 0, 0.05);
+        box-shadow: 0 10px 27px rgba(0, 0, 0, 0.05);
         backdrop-filter: blur( 20.0px );
     }
 
@@ -112,7 +111,7 @@ header li{
         cursor: pointer;
     }
 
-        .hamburger.active .bar:nth-child(2) {
+    .hamburger.active .bar:nth-child(2) {
         opacity: 0;
     }
 
