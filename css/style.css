@@ -154,6 +154,7 @@ header li{
 .hero-figure{
     max-height: 100vh;
     overflow: hidden;
+    text-shadow: 1px 1px 3px rgba(8, 8, 8, 0.377);
 }
 
 .hero-figure h2{
