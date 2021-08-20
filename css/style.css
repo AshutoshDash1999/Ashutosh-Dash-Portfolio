@@ -173,6 +173,8 @@ header li{
 
 .hero-figure img{
     height: calc(300px + 15vw);
+    filter: drop-shadow( 5px 5px 5px rgba(0, 0, 0, .3));
+
 }
 
 .hero-figure .text{
@@ -198,7 +200,9 @@ header li{
 }
 
 .social-icons img:hover{
-box-shadow: rgba(0, 0, 0, 0.575) 0px 25px 50px -12px;    transform: translate3d(0px, -2px, 0px);
+    box-shadow: rgba(0, 0, 0, 0.575) 0px 25px 50px -12px;    
+    transform: translate3d(0px, -2px, 0px);
+    filter: none;
 }
 
 .skills .row{
