@@ -349,9 +349,13 @@ transition-delay:.2s;
 
 .footer{
     height:400px;
-    background: linear-gradient(110deg, var(--orange), var(--purple));
+    /* background: linear-gradient(110deg, var(--orange), var(--purple)); */
     margin-top: 100px;
+    background: url(../imgs/gradient-footer.png) fixed center center no-repeat;
+    background-size: cover;
 }
+
+
 
 .contact{
     background: #141c3a;
