@@ -37,9 +37,10 @@ var typed = new Typed("#typed", {
   showCursor: false,
 });
 
+//Go to  Top Button
+
 //Get the button
 var mybutton = document.getElementById("myBtn");
-
 // When the user scrolls down 20px from the top of the document, show the button
 window.onscroll = function() {scrollFunction()};
 
@@ -56,4 +57,12 @@ function topFunction() {
   document.documentElement.scrollTop = 0;
 }
 
-         
+// Change title when there's no activity in page
+function handleVisibilityChange() {
+  if (document.visibilityState === "hidden") {
+    document.title = 'Come back please';
+  } else  {
+    document.title = 'Ashutosh Dash | Portfolio';
+  }
+}
+document.addEventListener("visibilitychange", handleVisibilityChange, false);

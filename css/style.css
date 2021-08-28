@@ -105,7 +105,6 @@ header li{
     color: var(--purple);
     box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px, rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;  
     background: rgba( 255, 255, 255, 0.80 );
-
 }
 
 @media only screen and (max-width: 1225px) {
@@ -331,7 +330,7 @@ transform:translatey(0);
 transition-delay:.2s;
 }
 
-.experience img{
+.experience .card{
     box-shadow: 0 1.8px 2.2px rgba(0, 0, 0, 0.034),
     0 3.7px 5.3px rgba(0, 0, 0, 0.048),
     0 6.5px 10px rgba(0, 0, 0, 0.06),
@@ -355,8 +354,6 @@ transition-delay:.2s;
     background-size: cover;
     
 }
-
-
 
 .contact{
     background: #141c3a;
@@ -390,3 +387,4 @@ transition-delay:.2s;
     transform: scale(0.98);
     background: rgb(202, 154, 221);
 }
+
