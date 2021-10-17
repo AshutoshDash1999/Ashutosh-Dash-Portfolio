@@ -182,6 +182,12 @@ header li{
     filter: drop-shadow( 5px 5px 5px rgba(0, 0, 0, .3));
 }
 
+@media only screen and (max-width: 900px){
+    .hero-figure .hero-img {
+        display: none;
+    }
+}
+
 .hero-figure .text{
     margin: auto;
     /* helped in vertically centering */
@@ -210,7 +216,7 @@ header li{
     transition: 0.25s ease-in-out;
 }
 
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 900px) {
     .social-icons img{
         height: 40px;
     }
