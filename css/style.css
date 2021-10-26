@@ -9,7 +9,8 @@
 body{
     margin: 0;
     padding: 0;
-    font-family: var(--header-font)
+    font-family: var(--header-font);
+    background-color: #f2f5f8;
 }
 
 body p{
@@ -73,6 +74,7 @@ header li{
 
 .logo{
     height: 40px;
+    border-radius: 25%;
 }
 
 .hamburger {
@@ -230,6 +232,7 @@ header li{
 
 .skills .row{
     border: 5px solid var(--orange);
+    background-color: #fff;
     border-radius: 20px;
     box-shadow:   0 1.8px 2.2px rgba(0, 0, 0, 0.034),
     0 3.7px 5.3px rgba(0, 0, 0, 0.048),
