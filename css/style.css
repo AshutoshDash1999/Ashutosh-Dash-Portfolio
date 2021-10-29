@@ -10,7 +10,6 @@ body{
     margin: 0;
     padding: 0;
     font-family: var(--header-font);
-    background-color: #f2f5f8;
 }
 
 body p{
@@ -231,8 +230,7 @@ header li{
 }
 
 .skills .row{
-    border: 5px solid var(--orange);
-    background-color: #fff;
+    background: #fedbc7;
     border-radius: 20px;
     box-shadow:   0 1.8px 2.2px rgba(0, 0, 0, 0.034),
     0 3.7px 5.3px rgba(0, 0, 0, 0.048),
@@ -241,15 +239,17 @@ header li{
     0 16.8px 33.4px rgba(0, 0, 0, 0.086);
 }
 
-.skills .row .col-md-6{
+.skills .row .col-md{
+    background: #C4B5FD;
     border: 1px solid rgb(180, 179, 179);
     text-align: center;
     align-items: center;
     letter-spacing: 0.025em;
     border-radius: 15px;
+    margin: 0.4rem;
 }
 
-.skills .row .col-md-6 h4{
+.skills .row .col-md h4{
     color: var(--purple);
 }
 
@@ -347,6 +347,11 @@ transform:translatey(0);
 .hovereffect:hover a.info {
 -webkit-transition-delay:.2s;
 transition-delay:.2s;
+}
+
+.experience{
+    background: #C4B5FD;
+    border-radius: 20px;
 }
 
 .experience .card{
