@@ -1,0 +1,99 @@
+[
+{
+    "projects":[
+        {
+        "img":"./assets/project_imgs/weather-app.jpg",
+        "project-name":"React Weather App",
+        "tech-stack":[
+            "HTML",
+            "CSS",
+            "TailwindCSS",
+            "ReactJS",
+            "Git/GitHub",
+            "Netlify"
+        ],
+        "live-link": "https://react-weather-ashu.netlify.app/",
+        "github-link": "https://github.com/AshutoshDash1999/React-Weather-App"
+        },
+        {
+            "img":"./assets/project_imgs/tip_calculator.png",
+            "project-name":"Tip Calculator",
+            "project-description":"A simple app to calculate tip and amount per person.",
+            "tech-stack":[
+                "HTML",
+                "CSS",
+                "TailwindCSS",
+                "JavaScript",
+                "Git/GitHub",
+                "Netlify"
+            ],
+            "live-link": "https://tip-calculator-by-ashu.netlify.app/",
+            "github-link": "https://github.com/AshutoshDash1999/Tip-Calculator"
+        },
+        {
+            "img":"./assets/project_imgs/cryptokart.png",
+            "project-name":"Cryptokart",
+            "tech-stack":[
+                "HTML",
+                "CSS",
+                "Bootstrap",
+                "JavaScript",
+                "Git/GitHub",
+                "Netlify"
+            ],
+            "live-link": "https://cryptokart.netlify.app/",
+            "github-link": "https://github.com/AshutoshDash1999/CryptoKart"
+        },
+        {
+            "img":"./assets/project_imgs/drumkit.png",
+            "project-name":"Drum Kit",
+            "tech-stack":[
+                "HTML",
+                "CSS",
+                "JavaScript",
+                "Git/GitHub",
+                "Netlify"
+            ],
+            "live-link": "https://js-drumm-kitt.netlify.app/",
+            "github-link": "https://github.com/AshutoshDash1999/js-drum-kit"
+        },
+        {
+            "img":"./assets/project_imgs/minion_lang.png",
+            "project-name":"English to Banana Language(Minion's Language)",
+            "tech-stack":[
+                "HTML",
+                "CSS",
+                "JavaScript",
+                "Git/GitHub",
+                "Netlify"
+            ],
+            "live-link": "https://english-to-banana-translation.netlify.app/",
+            "github-link": "https://github.com/AshutoshDash1999/minion-banana-language-tranlator"
+        },
+        {
+            "img":"./assets/project_imgs/marvel_quiz_cli.png",
+            "project-name":"CLI quiz on MCU",
+            "tech-stack":[
+                "NodeJS",
+                "Replit"
+            ],
+            "live-link": "https://replit.com/@ashutoshash1999/marvel-quiz/?embed=1&output=1",
+            "github-link": "https://github.com/AshutoshDash1999/marvel-cli-quiz"
+        },
+        {
+            "img":"./assets/project_imgs/breast_cancer.png",
+            "project-name":"Breast Cancer Awareness Program",
+            "tech-stack":[
+                "HTML",
+                "CSS",
+                "Bootstrap",
+                "JavaScript",
+                "Git/GitHub",
+                "Netlify"
+            ],
+            "live-link": "https://breastcancerawareness.netlify.app/",
+            "github-link": "https://github.com/AshutoshDash1999/Breast-Cancer-Awareness"
+        }
+    ]
+}
+]

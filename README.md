@@ -1,9 +1,6 @@
-# My Official portfolio V.3
+# My Official portfolio V.4
 
 ## Stack Used
-HTML, CSS, JavaScript, Bootstrap
+HTML, CSS, JavaScript
 
-## Reference
-- https://dev.to/devggaurav/let-s-build-a-responsive-navbar-and-hamburger-menu-using-html-css-and-javascript-4gci
-
-- icons8.com
+# Screencast

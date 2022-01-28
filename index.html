@@ -16,276 +16,107 @@
     <meta property="og:site_name" content="https://ashutoshdash.netlify.app/">
     <meta property="og:title" content="Ashutosh Dash | Portfolio">
     <meta property="og:description" content="Ashutosh Dash's Portfolio, made by me, for me."/>
-    <meta property="og:image" content="imgs/link-preview.png">
+    <meta property="og:image" content="assets/link-preview.png">
     <meta property="og:type" content="website">
     <meta property="og:url" content="https://ashutoshdash.netlify.app/index.html">
     <meta property="twitter:title" content="Ashutosh Dash | Portfolio">
     <meta name="twitter:description" content="Ashutosh Dash's Portfolio, made by me, for me."/>
-    <meta property="twitter:image" content="imgs/link-preview.png">
+    <!-- <meta property="twitter:image" content="imgs/link-preview.png"> -->
     <meta name="twitter:card" content="summary">
     <meta name="twitter:site" content="https://ashutoshdash.netlify.app/">
     <meta name="application-name" content="Ashutosh Dash | Portfolio" />
     <meta name="apple-mobile-web-app-title" content="Ashutosh Dash | Portfolio" />
     <meta name="summary" content="A minimalist portfolio made by Ashutosh Dash">
 
-    <!-- Bootstrap  CDN  -->
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css">
-
     <!-- Google Font  -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Neuton:wght@700&display=swap" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css2?family=Merriweather&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@600;700&display=swap" rel="stylesheet">
 
     <!-- Custom CSS  -->
-    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="style.css">
 
     <!-- Favicon  -->
-    <link rel="shortcut icon" href="imgs/favicon.png" type="image/x-icon">
+    <link rel="shortcut icon" href="assets/favicon.png" type="image/x-icon">
 
-    <!-- typedjs -->
-    <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
-
-    <!-- AOS CDN  -->
-    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <!-- Font Awesome CDN  -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
 
 </head>
 <body>
-
-     <button onclick="topFunction()" id="myBtn" title="Go to top"><img src="imgs/icons8-scroll-up-30.png" alt=""></button>
-
-       <header class="header">
-        <nav class="navbar">
-            <a href="#" class="nav-logo"><img class="logo" src="imgs/logo.png" alt=""></a>
-            <ul class="nav-menu">
-                <li class="nav-item">
-                    <a href="#skills" class="nav-link">Skills</a>
+    <header>
+        <nav>
+            <ul>
+                <li class="nav-link">
+                    <a href="#projects-container">Projects <i class="fa fa-tasks" aria-hidden="true"></i>
+                    </a>
                 </li>
-                <li class="nav-item">
-                    <a href="https://ashutosh-dash.netlify.app/projects.html" class="nav-link">Projects</a>
-                </li>
-                <li class="nav-item">
-                    <a target="_blank" href="https://ashutoshdash.hashnode.dev/" class="nav-link">Blogs</a>
-                </li>
-                <li class="nav-item">
-                    <a href="#experience" class="nav-link">Experience</a>
-                </li>
-                <li class="nav-item">
-                    <a href="#cocurriculars" class="nav-link">Co-curriculars</a>
-                </li>
-                <li class="nav-item">
-                    <a href="#contact" class="nav-link">Contact</a>
-                </li>
+                <li class="nav-link">
+                    <a target="_blank" href="https://ashutoshdash.hashnode.dev/">Blogs <i class="fa fa-book" aria-hidden="true"></i>
+                </a></li>
+                <li class="nav-link">
+                    <a href="#contact">Contact Me <i class="fa fa-phone" aria-hidden="true"></i>
+                </a></li>
             </ul>
-            <div class="hamburger">
-                <span class="bar"></span>
-                <span class="bar"></span>
-                <span class="bar"></span>
-            </div>
         </nav>
-</header>
+    </header>
 
-    <br>
-    <div class="container hero-figure">
-        <div class="row">
-            <div class="col-md-6 text" data-aos="fade-right">
-                <h2>Hello,</h2>
-                <h2>I'm <span id="typed" class="gradient-text"></span></h2>
-                <p class="text-muted">I bring life to sketches. </p>
+    <section id="hero-figure">
+            <h3 style="font-weight: 600;">ନମସ୍କାର || नमस्ते || Hello <i class="fa fa-handshake-o" aria-hidden="true"></i>, <span id="greeting"></span></h3>
+            <h1>I'm <span id="name">Ashutosh Dash</span>,</h1>
+            <h3 style="font-weight: 600;">a Frontend Web Developer</h3>
+            <h3><span style="font-weight: 600;">I am familiar with</span> 
+                <span class="skills">HTML</span>
+                <span class="skills">CSS</span>
+                <span class="skills">Bootstrap</span>
+                <span class="skills">TailwindCSS</span>
+                <span class="skills">JavaScript</span>
+                <span class="skills">React</span>
+                <span class="skills">Ant Design</span>
+                <span class="skills">Git</span>.
+            </h3>
+            <ul class="social-links">
+                <li><a href="mailto:dashashutosh1999@gmail.com"><i class="fa fa-envelope" aria-hidden="true"></i> Mail</a></li>
+                <li><a href="https://api.whatsapp.com/send/?phone=919348907638&text=Hi%2C+Ashutosh,+I+went+through+your+profile+and+I+really+like+it.+Would+you+mind+sharing+an+opportunity+with+you+?"><i class="fa fa-whatsapp" aria-hidden="true"></i> Whatsapp</a></li>
+                <li><a href="https://www.linkedin.com/in/ashutoshdash1999/"><i class="fa fa-linkedin-square" aria-hidden="true"></i> LinkedIn</a></li>
+                <li><a href="https://github.com/AshutoshDash1999"><i class="fa fa-github-square" aria-hidden="true"></i> GitHub</a></li>
+                <li><a href="https://twitter.com/ashutoshdash99"><i class="fa fa-twitter-square" aria-hidden="true"></i> Twitter</a></li>
+                <li><a href="./Ashutosh_Dash_Resume.pdf"><i class="fa fa-download" aria-hidden="true"></i> Download Resume</a></li>
+            </ul>
+    </section>
 
-                <p class="social-icons">
-                    <a target="_blank" href="https://www.linkedin.com/in/ashutoshdash1999/">
-                        <img src="imgs/icons8-linkedin.svg" alt="">
-                    </a>
-                    <a target="_blank" href="https://twitter.com/ashutoshdash99">
-                        <img src="imgs/icons8-twitter.svg" alt="">
-                    </a>
-                    <a target="_blank" href="https://github.com/AshutoshDash1999">
-                        <img src="imgs/icons8-github.svg" alt="">
-                    </a>
-                    <a target="_blank" href="mailto:dashashutosh1999@gmail.com">
-                        <img src="imgs/icons8-gmail.svg" alt="">
-                    </a>
-                    <a target="_blank" href="https://api.whatsapp.com/send/?phone=919348907638&text=Hi%2C+I+went+through+your+profile+and+I+really+like+it.+Would+you+mind+sharing+an+opportunity+with+you+?">
-                        <img src="imgs/icons8-whatsapp.svg" alt="">
-                    </a>
-                    <a target="_blank" href="./Ashutosh_Dash_Resume.pdf" data-toggle="tooltip" title="View my resume">
-                        <img src="imgs/icons8-download-48.png" alt="">
-                    </a>
-                </p>
-                
-            </div>
-            <div class="col-md-6 img hero-img" data-aos="fade-left">
-                <img src="imgs/ashu_pic.png" alt="">
-            </div>
-        </div>
-    </div>
-
-    <br>
-    <br>
-
-    <div class="container skills" id="skills">
-        <br>
-        <div class="row">
-            <div class="col-md" data-aos="fade-right">
-                <br>
-                <img src="imgs/icons8-art-book-50.png" alt="">
-                <h3>Designer</h3>
-                <p class="text-muted">I value minimalist and practical design.</p>
-                <h4> Things I do</h4>
-                <p>UI for Web, Mobile, Logo, App</p>
-                <h4>Tools I use</h4>
-                <p>Canva</p>
-                <p>Figma</p>
-                <p>Framer</p>
-            </div>
-
-            <div class="col-md" data-aos="fade-left">
-                <br>
-                <img src="imgs/icons8-code-50.png" alt="">
-                <h3>Web Developer</h3>
-                <p class="text-muted">I like to code and bring life to living designs.</p>
-                <h4>Languages my code editor speaks</h4>
-                <p>Javascipt, HTML, CSS, Python, C</p>
-                <h4>Tools I use</h4>
-                <p>Bootstrap</p>
-                <p>Git and Github</p>
-                <p>VS Code</p>
-            </div>
+    <!-- Project Section  -->
+    <section id="projects-container">
+        <h2>Projects</h2>
+        <div class="project-array">
+            <!-- Create dynamically -->
             
         </div>
-    </div>
+    </section>
 
-    <br>
-    <br>
+    <!-- Contact Section  -->
+    <section id="contact">
+        <h2>Contact Me</h2>
+        <p>Want to schedule a meeting with me or share an amazing oportunity?</p>
 
-    <section class="container projects text-center" id="projects">
-        <br>
-        <h2>My Projects</h2>
-        <p class="text-muted">Visit <a href="https://ashutosh-dash.netlify.app/projects.html">this link</a> to see some of my projects which I am proud of. Want to see more? Visit <a href="https://github.com/AshutoshDash1999">my GitHub profile.</a></p>
+        <form name="contact" method="POST" data-netlify="true">
+            <input type="text" name="name" placeholder="Your Name">
+            <input type="text" name="email" placeholder="Your Email">
+            <input type="text" name="number" placeholder="Your Number">
+            <textarea name="message" id="" cols="30" rows="4" placeholder="Your Message"></textarea>
+            <button id="formSubmitBtn" type="submit">Send <i class="fa fa-paper-plane" aria-hidden="true"></i>
+            </button>
+        </form>
+            
+    </section>
 
-</section>
+    <footer>
 
-<section class="container experience text-center mb-3" id="experience">
-    <br>
-    <h2>My Experience</h2>
-    <p class="text-muted">I'm proud to have collaborated with some amazing companies:</p>
-    <div class="row">
-        <div class="col mb-2" data-aos="fade-up" data-aos-duration="1000">
-            <div class="card" style="width: 18rem;">
-                <img src="imgs/gs-bbsr-logo.png" loading="lazy" class="card-img-top" alt="">
-                <div class="card-body">
-                    <h5 class="card-title">Girlscript Bhubaneswar</h5>
-                    <p class="card-text">
-                        - Was part of team which was responsible to build the website of GirlScript Bhubaneswar Chapter
-                    </p>
-                </div>
-            </div>        
-        </div>
-        <div class="col text-center" data-aos="fade-up" data-aos-duration="2000">
-            <div class="card" style="width: 18rem;">
-                <img src="imgs/tsf-logo.png" loading="lazy" class="card-img-top" alt="" height="120px">
-                <div class="card-body">
-                    <h5 class="card-title">The Sparks Foundation</h5>
-                    <p class="card-text">
-                        - Developed the frontend of a basic banking system
-                    </p>
-                </div>
-            </div>
-        </div>
-    </div>
-</section>
+    </footer>
 
-<br>
-<br>
+    <script src="script.js"></script>
+    <noscript>Sorry, your browser does not support JavaScript!</noscript>
 
-<section class="cocurriculars container mb-5 text-center" id="cocurriculars">
-    <br>
-    <h2>Co-curricular Activities</h2>
-    <div class="">
-        <p>1st runner up in <a href="https://devpost.com/software/smart-skool">DelhiHacks Hackathon</a></p>
-        <p>Top 10 in <a href="https://utkalhacks.devfolio.co/">UtkalHacks Hackathon</a> out of 35+ teams.</p>
-        <p>Top 10 in JiniHacks Hackathon</p>
-        <p>12th rank in <a href="https://slop.dscdaiict.in/">SLoP Open Source Contribution Program</a> out of 98 participants.</p>
-        <p>Participated in <a href="https://devpost.com/software/cryptokart">PeddiHacks Hackathon</a></p>
-    </div>
-</section>
-
-<br>
-<br>
-<br>
-
-<div class="footer text-center">
-    
-</div>
-
-<div class="container contact shadow-lg" id="contact">
-    <br>
-    <div class="row">
-        <div class="col-md-6 text-center">
-            <h2>Start a project</h2>
-            <p>Interested in working together? or wanna just say hi? Hit me up then! </p>
-            <p class="social-icons">
-                <a target="_blank" href="https://www.linkedin.com/in/ashutoshdash1999/">
-                    <img src="imgs/icons8-linkedin.svg" alt="">
-                </a>
-                <a target="_blank" href="https://twitter.com/ashutoshdash99">
-                    <img src="imgs/icons8-twitter.svg" alt="">
-                </a>
-                <a target="_blank" href="https://github.com/AshutoshDash1999">
-                    <img src="imgs/icons8-github.svg" alt="">
-                </a>
-                <a target="_blank" href="mailto:dashashutosh1999@gmail.com">
-                    <img src="imgs/icons8-gmail.svg" alt="">
-                </a>
-                <a target="_blank" href="https://api.whatsapp.com/send/?phone=919348907638&text=Hi%2C+I+went+through+your+profile+and+I+really+like+it.+Would+you+mind+sharing+an+opportunity+with+you+?">
-                    <img src="imgs/icons8-whatsapp.svg" alt="">
-                </a>
-                <a target="_blank" href="https://docs.google.com/document/d/1PsZJWySizrJHAfIcI8zK5f4z2YGFwA2lxmLF_CbTAjM/edit">
-                    <img src="imgs/icons8-download-48.png" alt="">
-                </a>
-            </p>
-        </div>
-
-        <div class="col-md-6" style="color: #000;">
-            <form name="portfolio-contact" method="POST" action="https://formspree.io/f/xwkawley">
-
-                <div class="form-floating mb-3">
-                    <input type="text" class="form-control" name="name" id="floatingInput" placeholder="name" required>
-                    <label for="floatingInput">Name</label>
-                </div>
-                <div class="form-floating mb-3">
-                    <input type="email" class="form-control" name="email" id="floatingEmail" placeholder="Email" required>
-                    <label for="floatingEmail">Email Address</label>
-                </div>
-                <div class="form-floating mb-3">
-                    <input type="text" class="form-control" name="comment" placeholder="Leave a comment here" id="floatingTextarea">
-                    </input>
-                    <label for="floatingTextarea">Comments</label>
-                </div>
-                <button class="mb-3" type="submit">Send <img src="imgs/icons8-send.svg" alt=""></button>
-            </form>
-
-        </div>
-    </div>
-</div>
-    
-    <!-- Bootstrap  CDN  -->
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.bundle.min.js"></script>
-    <script>
-        $(document).ready(function () {
-            $('[data-toggle="tooltip"]').tooltip();
-        });
-    </script>
-
-    <!-- AOS CDN  -->
-    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
-    <script>
-    AOS.init();
-    </script>
-
-    <!-- Custom CSS  -->
-    <script src="js/script.js"></script>
 </body>
 </html>
