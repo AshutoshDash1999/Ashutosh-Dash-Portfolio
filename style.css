@@ -72,6 +72,15 @@ nav a{
     padding: 1rem;
 }
 
+@media only screen and (max-width: 1000px) {
+    nav {
+      justify-content: center;
+    }
+    body{
+        font-size: 15px;
+    }
+}
+
 #hero-figure{
     min-height: 80vh;
     margin: 1rem;
@@ -209,7 +218,7 @@ nav a{
 
 #contact{
     padding-bottom: 4rem;
-    margin: 1rem 5rem;
+    margin: 1rem auto;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -217,6 +226,7 @@ nav a{
     align-items: center;
     background:rgba(255, 255, 255, 0.547);
     border-radius: 0.5rem;
+    width: 90%;
 }
 
 #contact h2, #contact p{
