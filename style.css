@@ -14,7 +14,7 @@ body{
     padding: 0;
     font-family: var(--font-Nunito);
     font-size: 18px;
-    background: url(assets/bg.png);
+    background: url(assets/bg.jpeg);
     background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
@@ -46,7 +46,7 @@ nav{
     display: flex;
     justify-content: flex-end;
     min-width: 100%;
-    backdrop-filter: blur(14px);
+    backdrop-filter: blur(20px);
     background: rgba(159, 253, 159, 0.164);
 }
 
@@ -69,6 +69,7 @@ nav .nav-link:hover{
 nav a{
     color: var(--violet);
     font-weight: 700;
+    padding: 1rem;
 }
 
 #hero-figure{
@@ -127,7 +128,7 @@ nav a{
 .social-links li a:hover{
     background: var(--violet);
     color: var(--yellow);
-    box-shadow:  0 8px 24px  rgba(149,157,165,0.2);
+    box-shadow: 0 17px 29px 0 rgba(126, 18, 168, 0.2)
 }
 
 #projects-container h2{
@@ -150,7 +151,8 @@ nav a{
 }
 
 .project-card:hover{
-    box-shadow: 0 17px 29px 0 rgba(100,100,111,0.2)
+    box-shadow: 0 17px 29px 0 rgba(100,100,111,0.2);
+    transform: translateY(-5px);
 }
 
 .project-img-div{
@@ -250,7 +252,7 @@ nav a{
 #contact #formSubmitBtn:hover{
     border-bottom: 5px solid var(--violet);
     transform: scale(1.1);
-    box-shadow: 0 17px 29px 0 rgba(100,100,111,0.2)
+    box-shadow: 0 17px 29px 0 rgba(18, 168, 18, 0.2)
 }
 
 #contact #formSubmitBtn:active{

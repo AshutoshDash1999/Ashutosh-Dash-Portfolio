@@ -16,7 +16,7 @@
         "github-link": "https://github.com/AshutoshDash1999/React-Weather-App"
         },
         {
-            "img":"./assets/project_imgs/tip_calculator.png",
+            "img":"./assets/project_imgs/tip_calculator.jpeg",
             "project-name":"Tip Calculator",
             "project-description":"A simple app to calculate tip and amount per person.",
             "tech-stack":[
@@ -31,7 +31,7 @@
             "github-link": "https://github.com/AshutoshDash1999/Tip-Calculator"
         },
         {
-            "img":"./assets/project_imgs/cryptokart.png",
+            "img":"./assets/project_imgs/cryptokart.jpeg",
             "project-name":"Cryptokart",
             "tech-stack":[
                 "HTML",
@@ -45,7 +45,7 @@
             "github-link": "https://github.com/AshutoshDash1999/CryptoKart"
         },
         {
-            "img":"./assets/project_imgs/drumkit.png",
+            "img":"./assets/project_imgs/drumkit.jpeg",
             "project-name":"Drum Kit",
             "tech-stack":[
                 "HTML",
@@ -58,7 +58,7 @@
             "github-link": "https://github.com/AshutoshDash1999/js-drum-kit"
         },
         {
-            "img":"./assets/project_imgs/minion_lang.png",
+            "img":"./assets/project_imgs/minion_lang.jpeg",
             "project-name":"English to Banana Language(Minion's Language)",
             "tech-stack":[
                 "HTML",
@@ -71,7 +71,7 @@
             "github-link": "https://github.com/AshutoshDash1999/minion-banana-language-tranlator"
         },
         {
-            "img":"./assets/project_imgs/marvel_quiz_cli.png",
+            "img":"./assets/project_imgs/marvel_quiz_cli.jpeg",
             "project-name":"CLI quiz on MCU",
             "tech-stack":[
                 "NodeJS",
@@ -81,7 +81,7 @@
             "github-link": "https://github.com/AshutoshDash1999/marvel-cli-quiz"
         },
         {
-            "img":"./assets/project_imgs/breast_cancer.png",
+            "img":"./assets/project_imgs/breast_cancer.jpeg",
             "project-name":"Breast Cancer Awareness Program",
             "tech-stack":[
                 "HTML",

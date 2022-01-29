@@ -41,7 +41,9 @@ const showProjects = () => {
 
             //project img
             const projectImg = document.createElement("img");
-            projectImg.src = projectImgSrc
+            projectImg.src = projectImgSrc;
+            projectImg.alt = projectName;
+            projectImg.loading = "lazy";
             projectImgDiv.appendChild(projectImg)
 
             const cardContent = document.createElement("div");
@@ -74,7 +76,8 @@ const showProjects = () => {
             let githubAnchor = document.createElement("a")
             githubAnchor.href = githubLink;
             githubAnchor.innerHTML = `Source Code <i class="fa fa-github" aria-hidden="true"></i>`;
-            githubAnchor.target = "_blank"
+            githubAnchor.target = "_blank";
+            githubAnchor.rel = "noopener";
             githubTag.appendChild(githubAnchor)
             repoLinks.appendChild(githubTag)
             
@@ -84,7 +87,8 @@ const showProjects = () => {
             let livelinkAnchor = document.createElement("a")
             livelinkAnchor.href = liveLink;
             livelinkAnchor.innerHTML = `Live Preview <i class="fa fa-external-link" aria-hidden="true"></i>`;
-            livelinkAnchor.target = "_blank"
+            livelinkAnchor.target = "_blank";
+            livelinkAnchor.rel="noopener";
             liveLinkTag.appendChild(livelinkAnchor)
             repoLinks.appendChild(liveLinkTag)
             console.log(repoLinks);
