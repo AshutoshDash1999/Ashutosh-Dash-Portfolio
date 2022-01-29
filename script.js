@@ -91,7 +91,6 @@ const showProjects = () => {
             livelinkAnchor.rel="noopener";
             liveLinkTag.appendChild(livelinkAnchor)
             repoLinks.appendChild(liveLinkTag)
-            console.log(repoLinks);
 
             //append content to cardcontent
             cardContent.appendChild(heading);
@@ -104,8 +103,6 @@ const showProjects = () => {
 
             //append project card
             projectArrayDiv.appendChild(projectcardDiv);
-
-            // console.log(data[0]["projects"][index]["tech-stack"][]);
         }
     })
 }

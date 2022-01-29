@@ -2,7 +2,7 @@
 {
     "projects":[
         {
-        "img":"./assets/project_imgs/weather-app.jpg",
+        "img":"./assets/project_imgs/weather-app.webp",
         "project-name":"React Weather App",
         "tech-stack":[
             "HTML",
@@ -16,7 +16,7 @@
         "github-link": "https://github.com/AshutoshDash1999/React-Weather-App"
         },
         {
-            "img":"./assets/project_imgs/tip_calculator.jpeg",
+            "img":"./assets/project_imgs/tip_calculator.webp",
             "project-name":"Tip Calculator",
             "project-description":"A simple app to calculate tip and amount per person.",
             "tech-stack":[
@@ -31,7 +31,7 @@
             "github-link": "https://github.com/AshutoshDash1999/Tip-Calculator"
         },
         {
-            "img":"./assets/project_imgs/cryptokart.jpeg",
+            "img":"./assets/project_imgs/cryptokart.webp",
             "project-name":"Cryptokart",
             "tech-stack":[
                 "HTML",
@@ -45,7 +45,7 @@
             "github-link": "https://github.com/AshutoshDash1999/CryptoKart"
         },
         {
-            "img":"./assets/project_imgs/drumkit.jpeg",
+            "img":"./assets/project_imgs/drumkit.webp",
             "project-name":"Drum Kit",
             "tech-stack":[
                 "HTML",
@@ -58,7 +58,7 @@
             "github-link": "https://github.com/AshutoshDash1999/js-drum-kit"
         },
         {
-            "img":"./assets/project_imgs/minion_lang.jpeg",
+            "img":"./assets/project_imgs/minion_lang.webp",
             "project-name":"English to Banana Language(Minion's Language)",
             "tech-stack":[
                 "HTML",
@@ -71,7 +71,7 @@
             "github-link": "https://github.com/AshutoshDash1999/minion-banana-language-tranlator"
         },
         {
-            "img":"./assets/project_imgs/marvel_quiz_cli.jpeg",
+            "img":"./assets/project_imgs/marvel_quiz_cli.webp",
             "project-name":"CLI quiz on MCU",
             "tech-stack":[
                 "NodeJS",
@@ -81,7 +81,7 @@
             "github-link": "https://github.com/AshutoshDash1999/marvel-cli-quiz"
         },
         {
-            "img":"./assets/project_imgs/breast_cancer.jpeg",
+            "img":"./assets/project_imgs/breast_cancer.webp",
             "project-name":"Breast Cancer Awareness Program",
             "tech-stack":[
                 "HTML",
