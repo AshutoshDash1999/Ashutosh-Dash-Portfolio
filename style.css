@@ -1,7 +1,7 @@
 :root{
     --font-Nunito: 'Nunito', sans-serif;
     --violet: #9333ea;
-    --yellow: #fde68a;
+    --yellow: #F9F871;
     --green: #34d399;
 }
 
@@ -30,7 +30,7 @@ body::-webkit-scrollbar {
 }
 
 body::-webkit-scrollbar-thumb{
-    background-color: purple;
+    background-color: var(--green);
     border-radius: 1rem;
 }
 
@@ -58,6 +58,7 @@ nav > ul{
 nav > ul > li{
     padding: 1rem;
     margin: 0 2rem;
+    transition: ease-in-out 0.2s;
 }
 
 nav .nav-link:hover{
@@ -257,6 +258,10 @@ nav a{
     background: var(--green);
     color: #fff;
     transition: linear 0.2s;
+}
+
+#contact input:focus, textarea:focus{
+    outline: 2px solid var(--violet);
 }
 
 #contact #formSubmitBtn:hover{
