@@ -103,9 +103,9 @@
         <p>Want to schedule a meeting with me or share an amazing oportunity?</p>
 
         <form name="contact" method="POST" data-netlify="true">
-            <input type="text" name="name" placeholder="Your Name">
-            <input type="text" name="email" placeholder="Your Email">
-            <input type="text" name="number" placeholder="Your Number">
+            <input id="name" type="text" minlength="4" placeholder="Name" required>
+            <input id="email" type="email" placeholder="Email" name="" id="" required>
+            <input id="number" type="tel" minlength="10" maxlength="13" placeholder="Phone number" name="" id="" required>
             <textarea name="message" id="" cols="30" rows="4" placeholder="Your Message"></textarea>
             <button id="formSubmitBtn" type="submit">Send <i class="fa fa-paper-plane" aria-hidden="true"></i>
             </button>
@@ -117,7 +117,7 @@
 
     </footer>
 
-    <script src="script.js"></script>
+    <script src="/scripts/script.js"></script>
     <noscript>Sorry, your browser does not support JavaScript!</noscript>
 
 </body>
