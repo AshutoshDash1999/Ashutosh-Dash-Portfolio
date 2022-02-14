@@ -1,7 +1,7 @@
 :root{
     --font-Nunito: 'Nunito', sans-serif;
     --violet: #9333ea;
-    --yellow: #F9F871;
+    --white: #fff;
     --green: #34d399;
 }
 
@@ -96,7 +96,7 @@ nav a{
 }
 
 #hero-figure .skills{
-    color: var(--yellow);
+    color: var(--white);
     background: var(--violet);
     padding: 0.3rem 0.5rem;
     border-radius: 0.3rem;
@@ -128,12 +128,8 @@ nav a{
 
 .social-links li a:hover{
     background: var(--violet);
-    color: var(--yellow);
+    color: var(--white);
     box-shadow: 0 17px 29px 0 rgba(126, 18, 168, 0.2)
-}
-
-#projects-container h2{
-    text-align: center;
 }
 
 .project-array{
@@ -143,7 +139,7 @@ nav a{
 }
 
 .project-card{
-    border-radius: 0.5rem;
+    border-radius: 0.3rem;
     width: 18rem;
     margin: 1rem;
     background:rgba(255, 255, 255, 0.547);
@@ -187,15 +183,15 @@ nav a{
     margin: 0.2rem;
     font-size: 0.8rem;
     background: var(--violet);
-    color: var(--yellow);
+    color: var(--white);
     border-radius: 0.3rem;
 }
 
 .project-card .project-links li{
     padding: 0.2rem 0.3rem;
     margin: 0.2rem;
-    color: var(--violet);
-    background: var(--yellow);
+    border: 1px solid var(--violet);
+    background: #fff;
     border-radius: 0.3rem;
     display: inline-block;
 }
@@ -205,12 +201,49 @@ nav a{
 }
 
 .live-link a{
-    color: var(--yellow);
+    color: #fff;
+}
+
+.blogs-array{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-content: center;
+}
+
+.blog-card{
+    border-radius: 0.3rem;
+    width: 60%;
+    margin: 1rem;
+    padding: 0.5rem;
+    background:rgba(255, 255, 255, 0.547);
+    box-shadow:  0 8px 24px  rgba(149,157,165,0.2);
+    transition: ease-in-out 0.2s;
+}
+
+.blog-card:hover{
+    box-shadow: 0 17px 29px 0 rgba(100,100,111,0.2);
+    transform: translateY(-5px);
+}
+
+.blog-link{
+    padding: 0.5rem 1rem;
+    background: var(--violet);
+    color: #fff;
+    border-radius: 0.2rem;
+    text-align: center;
+    display: inline-block;
+    box-shadow:  0 10px 24px  rgba(150, 44, 248, 0.2);
+    transition: ease-in-out 0.2s;
+}
+
+.blog-link:hover{
+    box-shadow:  0 10px 25px 3px rgba(131, 0, 213, 0.32);
 }
 
 #contact{
     padding-bottom: 4rem;
-    margin: 1rem auto;
+    margin: 5rem auto 1rem;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -221,8 +254,9 @@ nav a{
     width: 90%;
 }
 
-#contact h2, #contact p{
+section h2{
     text-align: center;
+    font-size: 2.5rem;
 }
 
 #contact input,textarea{
@@ -263,10 +297,6 @@ nav a{
 
 #contact #formSubmitBtn:active{
     transform: scale(0.9);
-}
-
-#contact h2, #projects-container h2{
-    font-size: 2.5rem;
 }
 
 @media only screen and (max-width: 1000px) {

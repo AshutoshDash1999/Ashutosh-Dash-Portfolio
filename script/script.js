@@ -1,5 +1,6 @@
 let greetingTag = document.querySelector("#greeting");
 let projectArrayDiv = document.querySelector(".project-array");
+let blogsArrayDiv = document.querySelector(".blogs-array")
 
 // function for showing greeting according to time of day
 const greetingFunction = () => {
@@ -107,3 +108,39 @@ const showProjects = () => {
     })
 }
 showProjects();
+
+// function for fetching blog
+const showBlogs = () => {
+    let blogUrl = "https://dev.to/api/articles?username=ashutoshdash";
+    fetch(blogUrl)
+    .then(response => response.json())
+    .then((data)=> {
+        console.log(data);
+        for (let index=0; index<2; index++){
+            let title = data[index]["title"];
+            let description = data[index]["description"];
+            let blog_url = data[index]["url"];
+
+            // const blogcardDiv = document.createElement("div");
+            // blogcardDiv.className = "blog-card";
+
+            // const blogImgDiv = document.createElement("div");
+            // blogImgDiv.className = "blog-img-div";
+            let htmlCode = `<div class="blog-card">
+                
+                <div class="card-content">
+                    <h1>${title}</h1>
+                    <p>${description}</p>
+                    <a rel="noopener" class="blog-link" href=${blog_url} >Read More <i class="fa fa-angle-double-right" aria-hidden="true"></i> </a>
+                </div>
+
+            </div>`;
+
+
+            console.log(htmlCode)
+            
+            blogsArrayDiv.innerHTML += htmlCode
+        }
+    })
+}
+showBlogs();
