@@ -16,19 +16,17 @@
         "github-link": "https://github.com/AshutoshDash1999/React-Weather-App"
         },
         {
-            "img":"./assets/project_imgs/tip_calculator.webp",
-            "project-name":"Tip Calculator",
-            "project-description":"A simple app to calculate tip and amount per person.",
+            "img":"./assets/project_imgs/random-user-generator.webp",
+            "project-name":"React Random User Generator",
+            "project-description":"Generate random users with their info like name, email, address etc.",
             "tech-stack":[
-                "HTML",
-                "CSS",
+                "React",
                 "TailwindCSS",
-                "JavaScript",
                 "Git/GitHub",
                 "Netlify"
             ],
-            "live-link": "https://tip-calculator-by-ashu.netlify.app/",
-            "github-link": "https://github.com/AshutoshDash1999/Tip-Calculator"
+            "live-link": "https://react-user-generator.netlify.app/",
+            "github-link": "https://github.com/AshutoshDash1999/react-random-user-generator"
         },
         {
             "img":"./assets/project_imgs/cryptokart.webp",
