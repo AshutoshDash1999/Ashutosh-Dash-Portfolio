@@ -2,6 +2,20 @@
 {
     "projects":[
         {
+        "img":"./assets/project_imgs/isro-info.webp",
+        "project-name":"ISRO Info",
+        "tech-stack":[
+            "HTML",
+            "CSS",
+            "TailwindCSS",
+            "ReactJS",
+            "Git/GitHub",
+            "Netlify"
+        ],
+        "live-link": "https://isro-work-info.netlify.app/",
+        "github-link": "https://github.com/AshutoshDash1999/ISRO-info"
+        },
+        {
         "img":"./assets/project_imgs/weather-app.webp",
         "project-name":"React Weather App",
         "tech-stack":[
