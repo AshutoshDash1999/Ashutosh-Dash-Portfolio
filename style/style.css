@@ -15,7 +15,7 @@ body {
   font-family: var(--font-Nunito);
   font-size: 18px;
   background-color: rgb(213, 255, 188);
-  background: url(../assets/bg.webp);
+  background: linear-gradient(to right, #67e8f9, #55ff83);
   background-attachment: fixed;
   background-position: center;
   background-repeat: no-repeat;
