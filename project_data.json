@@ -2,6 +2,20 @@
 {
     "projects":[
         {
+        "img":"./assets/project_imgs/country-open-info.webp",
+        "project-name":"Country Open Info",
+        "tech-stack":[
+            "HTML",
+            "CSS",
+            "TailwindCSS",
+            "ReactJS",
+            "Git/GitHub",
+            "Netlify"
+        ],
+        "live-link": "https://country-open-info.netlify.app/",
+        "github-link": "https://github.com/AshutoshDash1999/country-open-info"
+        },
+        {
         "img":"./assets/project_imgs/isro-info.webp",
         "project-name":"ISRO Info",
         "tech-stack":[
