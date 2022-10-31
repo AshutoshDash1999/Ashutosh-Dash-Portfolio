@@ -103,6 +103,10 @@ nav a {
   border-radius: 0.3rem;
 }
 
+#hero-figure .skills-row {
+  width: 90%;
+}
+
 .social-links {
   list-style: none;
   display: flex;
