@@ -4,6 +4,7 @@ import GitHubLogo from "public/socialicons/github.svg";
 import TwitterLogo from "public/socialicons/twitter.svg";
 import GMailLogo from "public/socialicons/gmail.svg";
 import Link from "next/link";
+import { useMediaQuery } from "@mantine/hooks";
 
 const socialLinksData = [
   {
@@ -55,6 +56,7 @@ const useStyles = createStyles((theme) => ({
 
 const Contact = () => {
   const { classes } = useStyles();
+  const largeScreen = useMediaQuery('(min-width: 550px)');
 
   return (
     <>
@@ -70,7 +72,7 @@ const Contact = () => {
           borderRadius: theme.radius.lg,
         })}
       >
-        <Flex justify={"space-between"} align="center">
+        <Flex justify={"space-between"} gap="lg" align="center" direction={largeScreen?"row":"column"}>
           <Link href="https://api.whatsapp.com/send/?phone=919348907638&text=Hi%2C+Ashutosh,+I+went+through+your+profile+and+I+really+like+it.+Would+you+mind+sharing+an+opportunity+with+you+?" style={{textDecoration:"none"}}>
             <Text
             className={classes.helloBtn}
@@ -87,7 +89,7 @@ const Contact = () => {
               Say Hello
             </Text>
           </Link>
-          <Flex gap={"lg"}>
+          <Flex gap={"lg"} direction={largeScreen?"row":"column"}>
             {socialLinksData.map((item) => (
               <Link
                 key={item.name}
@@ -95,7 +97,7 @@ const Contact = () => {
                 target="_blank"
                 className={classes.socialIcon}
               >
-                <Image src={item.logo.src} alt={item.name} height={40} />
+                <Image src={item.logo.src} alt={item.name} height={40} fit="contain" />
               </Link>
             ))}
           </Flex>
