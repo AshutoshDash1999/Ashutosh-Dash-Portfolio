@@ -106,7 +106,7 @@ const Projects = () => {
         </Text>{" "}
         <Text span>`Proof of Work`:</Text>
       </Title>
-      <Grid gutter="xl">
+      <Grid gutter="xl" my="xl">
         <Grid.Col sm={6} lg={4}>
           <Stack spacing="xl">
             <Box className={classes.blankBox1}></Box>

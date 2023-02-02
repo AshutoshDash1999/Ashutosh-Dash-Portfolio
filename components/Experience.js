@@ -39,7 +39,7 @@ const Experience = () => {
         </Text>
       </Title>
 
-      <Flex align={"center"} justify={"center"} gap="lg" wrap={"wrap"}>
+      <Flex my="xl" align={"center"} justify={"center"} gap="xl" wrap={"wrap"}>
         {experienceData.map((item) => (
           <Box
             key={item.companyName}

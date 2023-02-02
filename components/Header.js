@@ -7,7 +7,7 @@ import {
   keyframes,
 } from "@mantine/core";
 import AshuProfilePic from "public/profile-pic.png";
-import BannerImg from "public/banner1.png"
+import BannerImg from "public/banner.png"
 
 const bgColorTransition = keyframes({
   from: {

@@ -212,7 +212,7 @@ const techStack = [
     logo: NextLogo,
   },
   {
-    name: "Mantine",
+    name: "Mantine UI",
     color: "blue",
     logo: MantineLogo,
   },
