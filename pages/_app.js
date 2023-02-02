@@ -3,7 +3,7 @@ import { AppProps } from "next/app";
 import Head from "next/head";
 import { MantineProvider } from "@mantine/core";
 import { Nunito } from "@next/font/google";
-import {PreviewImg} from "public/metaimg.png"
+import {PreviewImg} from "public/linkpreview.png"
 import {FaviconImg} from "public/favicon.ico"
 const secondaryFont = Nunito({ subsets: ["latin"] });
 
