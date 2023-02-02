@@ -1,6 +1,6 @@
-# My Official portfolio V.4
+# My Official portfolio V.5
 
 ## Stack Used
-HTML, CSS, JavaScript
+React, NextJS, MantineUI
 
 # Screencast
