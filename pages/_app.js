@@ -17,7 +17,7 @@ export default function App({ Component, pageProps }) {
         <link rel="icon" href="/favicon.ico" />
         <meta
           name="description"
-          content="Ashutosh Dash, Frontend/UI Developer."
+          content="Ashutosh Dash, Frontend/UI Developer. Bringing life to sketches."
         />
         <meta name="author" content="Ashutosh Dash" />
         <meta
@@ -43,23 +43,24 @@ export default function App({ Component, pageProps }) {
         <meta property="og:title" content="Ashutosh Dash | Portfolio" />
         <meta
           property="og:description"
-          content="Ashutosh Dash :: Frontend Developer|| React Developer || JavaScript Developer."
+          content="Ashutosh Dash :: Frontend Developer|| React Developer || JavaScript Developer. Bringing life to sketches."
         />
         <meta
           property="og:image"
-          content={`${PreviewImg}`}
+          content="./linkpreview.png"
         />
         <meta property="og:type" content="website" />
         <meta
           property="og:url"
-          content="https://ashutoshdash.netlify.app/index.html"
+          content="https://ashutoshdash.netlify.app"
         />
         <meta property="twitter:title" content="Ashutosh Dash | Portfolio" />
         <meta
           name="twitter:description"
-          content="Ashutosh Dash, Frontend/UI Developer."
+          content="Ashutosh Dash, Frontend || UI || React || JavaScript Developer. Bringing life to sketches."
         />
-        <meta name="twitter:card" content="summary" />
+        <meta name="twitter:image" content="./linkpreview.png" />
+        <meta name="twitter:card" content="summary_large_image" />
         <meta name="twitter:site" content="https://ashutoshdash.netlify.app/" />
         <meta name="application-name" content="Ashutosh Dash | Portfolio" />
         <meta
