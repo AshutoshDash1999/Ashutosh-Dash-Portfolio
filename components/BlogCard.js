@@ -10,8 +10,6 @@ const useStyles = createStyles((theme) => ({
         : theme.colors.gray[1],
     "&:hover": {
       transform: "translateY(-5px)",
-      boxShadow:
-        "0px 8px 15px 0 10px 15px -3px rgba(59,130,246,.5),0 4px 6px -4px rgba(59,130,246,.5);",
     },
   },
 }));

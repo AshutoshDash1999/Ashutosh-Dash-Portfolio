@@ -22,7 +22,7 @@ const blogData = [
     title: "What is Context API in React and how to use it?",
     readable_publish_date: "Apr 29 '22",
     description:
-      "N.B. This article requires you to have little knowledge of prop drilling and the issue associated...",
+      "Learn to use Context API and how will it be helpful to you in your projects...",
   },
   {
     blogUrl:

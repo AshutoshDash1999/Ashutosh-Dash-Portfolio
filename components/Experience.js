@@ -1,15 +1,16 @@
 import { Box, Container, Flex, Image, Text, Title } from "@mantine/core";
 import YMLabsLogo from "public/brandslogo/ymlabs.png";
 import VichayanLogo from "public/brandslogo/vichayan.png";
+import BookingjiniLogo from "public/brandslogo/bookingjini.png"
 import Link from "next/link";
 
 const experienceData = [
   {
-    companyName: "ymlabs",
-    logo: YMLabsLogo,
-    companySite: "https://yellmonlabs.com/",
-    role: "UI Developer",
-    period: "05 May 2022 - 31 July 2022",
+    companyName: "bookingjini",
+    logo: BookingjiniLogo,
+    companySite: "http://bookingjini.com/",
+    role: "Frontend Developer",
+    period: "01 February 2022 - Present",
   },
   {
     companyName: "vichayan",
@@ -17,6 +18,13 @@ const experienceData = [
     companySite: "http://vichayan.com/",
     role: "Frontend Developer",
     period: "01 September 2022 - 31 October 2022",
+  },
+  {
+    companyName: "ymlabs",
+    logo: YMLabsLogo,
+    companySite: "https://yellmonlabs.com/",
+    role: "UI Developer",
+    period: "05 May 2022 - 31 July 2022",
   },
 ];
 
