@@ -1,13 +1,13 @@
 import {
-  Avatar,
+  Box,
   Center,
   Container,
   createStyles,
-  Image,
   keyframes,
 } from "@mantine/core";
 import AshuProfilePic from "public/profile-pic.png";
-import BannerImg from "public/banner.png"
+import BannerImg from "public/banner.png";
+import Image from "next/image";
 
 const bgColorTransition = keyframes({
   from: {
@@ -74,6 +74,9 @@ const useStyles = createStyles((theme) => ({
   banner: {
     borderRadius: theme.radius.md,
     background: "red",
+    width: "100%",
+    height: "200px",
+    objectFit: "cover",
   },
   avatar: {
     position: "absolute",
@@ -95,16 +98,17 @@ const Header = () => {
   return (
     <div>
       <Container size="xl" className={classes.container}>
-        <Image
-          className={classes.banner}
-          radius="md"
-          src={BannerImg.src}
-          alt="Banner image"
-          width="100%"
-          height="200px"
-          fit="cover"
-          withPlaceholder
-        />
+        <Box>
+          <Image
+            className={classes.banner}
+            src={BannerImg.src}
+            alt="Banner image"
+            width="500"
+            height="200"
+            blurDataURL={BannerImg.blurDataURL}
+            priority
+          />
+        </Box>
       </Container>
 
       <Center
@@ -113,7 +117,7 @@ const Header = () => {
           paddingBottom: "5rem",
         })}
       >
-        <Avatar className={classes.avatar} src={AshuProfilePic.src} />
+        <Image className={classes.avatar} src={AshuProfilePic.src} alt="Ashu Profile Pic" width={160} height={160}/>
       </Center>
     </div>
   );

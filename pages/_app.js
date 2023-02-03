@@ -72,6 +72,9 @@ export default function App({ Component, pageProps }) {
           name="summary"
           content="A minimalist portfolio made by Ashutosh Dash"
         />
+        <link rel="preconnect"
+      href="https://fonts.gstatic.com"
+      crossorigin />
       </Head>
       <main>
         <style jsx global>{`

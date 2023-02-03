@@ -31,7 +31,7 @@ const experienceData = [
 const Experience = () => {
   return (
     <Container size="xl" py={"lg"}>
-      <Title order={1}>
+      <Title order={2} size="h1">
         <Text span color="gray.6">
           I have worked as a
         </Text>{" "}
@@ -62,7 +62,7 @@ const Experience = () => {
             })}
           >
             <Image alt={item.companyName} fit="contain" height={100} src={item.logo.src}/>
-            <Link style={{ textDecoration: "none", color:"black" }} href={item.companySite}>{item.companySite}</Link>
+            <Link target="_blank" style={{ textDecoration: "none", color:"black" }} href={item.companySite}>{item.companySite}</Link>
             <Text fz="xl" fw={800}>{item.role}</Text>
             <Text>{item.period}</Text>
           </Box>

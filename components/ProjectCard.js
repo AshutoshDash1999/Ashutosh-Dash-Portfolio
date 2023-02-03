@@ -4,10 +4,10 @@ import {
   Button,
   createStyles,
   Flex,
-  Image,
   Text,
   Title,
 } from "@mantine/core";
+import Image from "next/image";
 import Link from "next/link";
 
 const useStyles = createStyles((theme) => ({
@@ -31,7 +31,6 @@ const ProjectCard = ({
   techUsed,
 }) => {
   const { classes } = useStyles();
-
   return (
     <Box
       sx={(theme) => ({
@@ -44,24 +43,26 @@ const ProjectCard = ({
       })}
     >
       <Image
-        pb={"sm"}
+        style={{
+          objectFit: "cover",
+          width: "100%",
+          marginBottom: "10px",
+          borderRadius: "20px",
+          height: "auto",
+        }}
         height={220}
+        width={300}
         src={projectPic?.src}
         alt="With default placeholder"
-        withPlaceholder
-        radius="lg"
-        sx={() => ({
-          width: "100%",
-        })}
-        fit="cover"
+        blurDataURL={projectPic?.blurDataURL}
       />
       <Title order={3}>{projectName}</Title>
       <Text fw={600} fz="xl" c="dimmed">
         {projectDescription}
       </Text>
-      <Flex wrap={"wrap"} gap="sm">
+      <Flex wrap={"wrap"} gap="sm" my="md">
         {techUsed.map((tools) => (
-          <Badge key={tools} radius="sm" variant="outline">
+          <Badge key={tools} radius="sm" variant="filled">
             {tools}
           </Badge>
         ))}
@@ -84,7 +85,16 @@ const ProjectCard = ({
         )}
         <Link target="_blank" href={`${liveLink}`}>
           <Button radius="xl" className={classes.cardButtn}>
-            Live
+            <Flex  gap={"xs"} align="center">
+              <Text span>Live</Text>
+              <Image
+                style={{ color: "#ffffff" }}
+                src="./external-link.svg"
+                alt={`${projectName}'s Live Demo`}
+                width={20}
+                height={20}
+              />
+            </Flex>
           </Button>
         </Link>
       </Flex>

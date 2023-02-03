@@ -100,7 +100,7 @@ const Projects = () => {
 
   return (
     <Container size="xl" py={"lg"}>
-      <Title order={1}>
+      <Title order={2} size="h1">
         <Text span color="gray.6">
           Here is some of my
         </Text>{" "}

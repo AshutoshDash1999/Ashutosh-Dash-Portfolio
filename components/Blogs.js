@@ -37,37 +37,11 @@ const blogData = [
 ];
 
 const Blogs = () => {
-  // const [blogData, setBLogData] = useState();
-  // const [isLoading, setIsLoading] = useState(false);
-
-  // const blogURLAPI = "https://dev.to/api/articles?username=ashutoshdash";
-
-  // useEffect(() => {
-  //   const fetchData = async () => {
-  //     setIsLoading(true);
-  //     try {
-  //       const response = await axios.get(blogURLAPI);
-  //       const responseData = [];
-  //       // for (i=0;i<3;i++){
-  //       //   responseData.push(response.data[i])
-  //       // }
-  //       console.log(response.data);
-
-  //       setBLogData(responseData);
-  //       setIsLoading(false);
-  //     } catch (error) {
-  //       console.error(error);
-  //     }
-  //   };
-  //   fetchData();
-  // }, []);
-
-  // console.log(blogData);
 
   return (
     <div>
       <Container size="xl" py={"lg"}>
-        <Title order={1}>
+        <Title order={2} size="h1">
           <Text span color="gray.6">
             I have written some
           </Text>{" "}

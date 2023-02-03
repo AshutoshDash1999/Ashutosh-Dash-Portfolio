@@ -1,4 +1,5 @@
-import { Card, createStyles, Image, Text } from "@mantine/core";
+import { Card, createStyles, Text } from "@mantine/core";
+import Image from "next/image";
 import Link from "next/link";
 
 const useStyles = createStyles((theme) => ({
@@ -22,17 +23,21 @@ const BlogCard = ({
   readable_publish_date,
 }) => {
   const { classes } = useStyles();
+  // console.log(coverImage);
   return (
     <Link href={`${blogUrl}`} target="_blank">
       <Card p="lg" radius="lg" className={classes.blogCard}>
         <Card.Section>
           <Image
+            style={{
+              width: "100%",
+              borderRadius: "20px",
+              objectFit: "cover",
+            }}
             src={coverImage}
-            radius="lg"
-            width="100%"
-            fit="cover"
             height={160}
-            alt="Norway"
+            width={200}
+            alt={title}
           />
         </Card.Section>
 

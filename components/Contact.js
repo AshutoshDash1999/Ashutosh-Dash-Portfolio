@@ -1,10 +1,11 @@
-import { Box, Container, createStyles, Flex, Image, Text } from "@mantine/core";
+import { Container, createStyles, Flex, Text } from "@mantine/core";
 import LinkedinLogo from "public/socialicons/linkedin.svg";
 import GitHubLogo from "public/socialicons/github.svg";
 import TwitterLogo from "public/socialicons/twitter.svg";
 import GMailLogo from "public/socialicons/gmail.svg";
 import Link from "next/link";
 import { useMediaQuery } from "@mantine/hooks";
+import Image from "next/image";
 
 const socialLinksData = [
   {
@@ -32,11 +33,15 @@ const socialLinksData = [
 const useStyles = createStyles((theme) => ({
   socialIcon: {
     opacity: "80%",
-    transition: "transform 0.7s",
+    transition: "all 0.5s ease-in-out",
     "&:hover": {
       opacity: "100%",
       transform: "translateY(-5px)",
     },
+  },
+  socialIconImg:{
+    objectFit:"contain",
+    transition: "all 0.5s ease-in-out",
   },
   helloBtn:{
     transition: "all 0.5s",
@@ -97,7 +102,7 @@ const Contact = () => {
                 target="_blank"
                 className={classes.socialIcon}
               >
-                <Image src={item.logo.src} alt={item.name} height={40} fit="contain" />
+                <Image className={classes.socialIconImg} src={item.logo.src} alt={item.name} height={40} width={40} blurDataURL={item.logo.blurDataURL} />
               </Link>
             ))}
           </Flex>

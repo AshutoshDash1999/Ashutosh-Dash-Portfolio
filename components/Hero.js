@@ -3,7 +3,6 @@ import {
   Container,
   createStyles,
   Flex,
-  Image,
   keyframes,
   Text,
   Title,
@@ -20,6 +19,7 @@ import MantineLogo from "public/techlogo/mantine.svg";
 import ChakraUiLogo from "public/techlogo/chakraui.svg";
 import AntdLogo from "public/techlogo/antd.svg";
 import GithubLogo from "public/techlogo/github.svg";
+import Image from "next/image";
 
 const colorTransition = keyframes({
   from: {
@@ -162,17 +162,20 @@ const useStyles = createStyles((theme) => ({
   descriptionText: {
     transition: "all 0.5s",
   },
-  roleText:{
+  roleText: {
     borderBottom: "4px solid",
     transition: "all 0.5s",
     animation: `${borderColorTransition} 15s ease-in-out infinite`,
     [`@media (max-width: ${theme.breakpoints.md}px)`]: {
-    borderBottom: "3px solid",
+      borderBottom: "3px solid",
     },
     [`@media (max-width: ${theme.breakpoints.sm}px)`]: {
-    borderBottom: "2px solid",
+      borderBottom: "2px solid",
     },
-  }
+  },
+  badge: {
+    transition: "all 0.5s",
+  },
 }));
 
 const techStack = [
@@ -250,10 +253,7 @@ const Hero = () => {
         <Text span color="gray.7">
           A
         </Text>{" "}
-        <Text
-          span
-          className={classes.roleText}
-        >
+        <Text span className={classes.roleText}>
           Frontend Developer.
         </Text>
       </Title>
@@ -272,9 +272,21 @@ const Hero = () => {
 
       <Flex wrap="wrap" gap={"md"} py="md">
         {techStack.map((item) => (
-          <Badge key={item.name} color={item.color} radius="sm" size="xl">
+          <Badge
+            className={classes.badge}
+            key={item.name}
+            color={item.color}
+            radius="sm"
+            size="xl"
+          >
             <Flex align={"center"} gap="sm" justify={"space-evenly"}>
-              <Image src={item.logo.src} height={20} alt={item.name} />
+              <Image
+                src={item.logo.src}
+                height={20}
+                width={20}
+                alt={item.name}
+                blurDataURL={item.logo.blurDataURL}
+              />
               {item.name}
             </Flex>
           </Badge>
