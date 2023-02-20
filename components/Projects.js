@@ -6,9 +6,8 @@ import {
   Image,
   Stack,
   Text,
-  Title,
+  Title
 } from "@mantine/core";
-import ProjectCard from "./ProjectCard";
 import AuctionPic from "public/projectBanner/auction.jpg";
 import ICCCTPic from "public/projectBanner/iccct.jpg";
 import IsroInfoPic from "public/projectBanner/isroinfo.jpg";
@@ -16,9 +15,9 @@ import IsteOdishaPic from "public/projectBanner/isteodisha.jpg";
 import KeydrumPic from "public/projectBanner/keydrum.jpg";
 import OpenCountryPic from "public/projectBanner/opencountry.jpg";
 import PencilCommunityPic from "public/projectBanner/pencilcommunitypage.jpg";
-import PlacementNoticeGenerator from "public/projectBanner/placementnoticegenerator.jpg";
-import UserGenerator from "public/projectBanner/placementnoticegenerator.jpg";
+import { default as PlacementNoticeGenerator, default as UserGenerator } from "public/projectBanner/placementnoticegenerator.jpg";
 import ZigbeePic from "public/projectBanner/zigbee.jpg";
+import ProjectCard from "./ProjectCard";
 
 const projectData1 = [
   {
@@ -102,7 +101,7 @@ const Projects = () => {
     <Container size="xl" py={"lg"}>
       <Title order={2} size="h1">
         <Text span color="gray.6">
-          Here is some of my
+          My
         </Text>{" "}
         <Text span>`Proof of Work`:</Text>
       </Title>

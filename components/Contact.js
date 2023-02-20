@@ -1,11 +1,11 @@
 import { Container, createStyles, Flex, Text } from "@mantine/core";
-import LinkedinLogo from "public/socialicons/linkedin.svg";
-import GitHubLogo from "public/socialicons/github.svg";
-import TwitterLogo from "public/socialicons/twitter.svg";
-import GMailLogo from "public/socialicons/gmail.svg";
-import Link from "next/link";
 import { useMediaQuery } from "@mantine/hooks";
 import Image from "next/image";
+import Link from "next/link";
+import GitHubLogo from "public/socialicons/github.svg";
+import GMailLogo from "public/socialicons/gmail.svg";
+import LinkedinLogo from "public/socialicons/linkedin.svg";
+import TwitterLogo from "public/socialicons/twitter.svg";
 
 const socialLinksData = [
   {

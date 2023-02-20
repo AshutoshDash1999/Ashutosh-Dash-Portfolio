@@ -41,12 +41,10 @@ const BlogCard = ({
           />
         </Card.Section>
 
-        <Text weight={500}>{title}</Text>
-
+        <Text weight={600} pt={"md"}>{title}</Text>
         <Text size="sm" color="dimmed">
           {description}
         </Text>
-
         <Text size="sm">{readable_publish_date}</Text>
       </Card>
     </Link>

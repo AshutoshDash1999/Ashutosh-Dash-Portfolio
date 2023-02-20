@@ -1,8 +1,8 @@
 import { Box, Container, Flex, Image, Text, Title } from "@mantine/core";
-import YMLabsLogo from "public/brandslogo/ymlabs.png";
-import VichayanLogo from "public/brandslogo/vichayan.png";
-import BookingjiniLogo from "public/brandslogo/bookingjini.png"
 import Link from "next/link";
+import BookingjiniLogo from "public/brandslogo/bookingjini.png";
+import VichayanLogo from "public/brandslogo/vichayan.png";
+import YMLabsLogo from "public/brandslogo/ymlabs.png";
 
 const experienceData = [
   {
@@ -36,11 +36,6 @@ const Experience = () => {
           I have worked as a
         </Text>{" "}
         <Text span>Frontend Developer</Text>
-        <Text span color="gray.6">
-          {" "}
-          and{" "}
-        </Text>
-        <Text span>UI Developer</Text>
         <Text span color="gray.6">
           {" "}
           for:

@@ -5,21 +5,21 @@ import {
   Flex,
   keyframes,
   Text,
-  Title,
+  Title
 } from "@mantine/core";
-import HTMLLogo from "public/techlogo/html.svg";
-import CSSLogo from "public/techlogo/css.svg";
-import JSLogo from "public/techlogo/javascript.svg";
-import BootstrapLogo from "public/techlogo/bootstrap.svg";
-import FirebaseLogo from "public/techlogo/firebase.svg";
-import ReactLogo from "public/techlogo/reactjs.svg";
-import NextLogo from "public/techlogo/nextjs.svg";
-import TailwindLogo from "public/techlogo/tailwindcss.svg";
-import MantineLogo from "public/techlogo/mantine.svg";
-import ChakraUiLogo from "public/techlogo/chakraui.svg";
-import AntdLogo from "public/techlogo/antd.svg";
-import GithubLogo from "public/techlogo/github.svg";
 import Image from "next/image";
+import AntdLogo from "public/techlogo/antd.svg";
+import BootstrapLogo from "public/techlogo/bootstrap.svg";
+import ChakraUiLogo from "public/techlogo/chakraui.svg";
+import CSSLogo from "public/techlogo/css.svg";
+import FirebaseLogo from "public/techlogo/firebase.svg";
+import GithubLogo from "public/techlogo/github.svg";
+import HTMLLogo from "public/techlogo/html.svg";
+import JSLogo from "public/techlogo/javascript.svg";
+import MantineLogo from "public/techlogo/mantine.svg";
+import NextLogo from "public/techlogo/nextjs.svg";
+import ReactLogo from "public/techlogo/reactjs.svg";
+import TailwindLogo from "public/techlogo/tailwindcss.svg";
 
 const colorTransition = keyframes({
   from: {
@@ -246,11 +246,11 @@ const Hero = () => {
 
   return (
     <Container size="xl">
-      <Title color="gray.7" order={1} className={classes.title}>
+      <Title color="gray.6" order={1} className={classes.title}>
         Hi, I&apos;m <span className={classes.nameText}>Ashutosh Dash</span>,
       </Title>
       <Title order={1} className={classes.subtitle}>
-        <Text span color="gray.7">
+        <Text span color="gray.6">
           A
         </Text>{" "}
         <Text span className={classes.roleText}>

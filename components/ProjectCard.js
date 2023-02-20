@@ -5,7 +5,7 @@ import {
   createStyles,
   Flex,
   Text,
-  Title,
+  Title
 } from "@mantine/core";
 import Image from "next/image";
 import Link from "next/link";
@@ -56,7 +56,7 @@ const ProjectCard = ({
         alt="With default placeholder"
         blurDataURL={projectPic?.blurDataURL}
       />
-      <Title order={3}>{projectName}</Title>
+      <Title weight={600} order={3}>{projectName}</Title>
       <Text fw={600} fz="xl" c="dimmed">
         {projectDescription}
       </Text>
