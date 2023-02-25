@@ -1,10 +1,10 @@
 import "@/styles/globals.css";
-import { AppProps } from "next/app";
-import Head from "next/head";
 import { MantineProvider } from "@mantine/core";
 import { Nunito } from "@next/font/google";
-import {PreviewImg} from "public/linkpreview.png"
-import {FaviconImg} from "public/favicon.ico"
+import { AppProps } from "next/app";
+import Head from "next/head";
+import { FaviconImg } from "public/favicon.ico";
+import { PreviewImg } from "public/linkpreview.png";
 const secondaryFont = Nunito({ subsets: ["latin"] });
 
 export default function App({ Component, pageProps }) {
@@ -72,9 +72,6 @@ export default function App({ Component, pageProps }) {
           name="summary"
           content="A minimalist portfolio made by Ashutosh Dash"
         />
-        <link rel="preconnect"
-      href="https://fonts.gstatic.com"
-      crossorigin />
       </Head>
       <main>
         <style jsx global>{`

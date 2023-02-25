@@ -1,8 +1,8 @@
 import { Box, Container, Flex, Image, Text, Title } from "@mantine/core";
 import Link from "next/link";
-import BookingjiniLogo from "public/brandslogo/bookingjini.png";
-import VichayanLogo from "public/brandslogo/vichayan.png";
-import YMLabsLogo from "public/brandslogo/ymlabs.png";
+import BookingjiniLogo from "public/brandslogo/bookingjini.webp";
+import VichayanLogo from "public/brandslogo/vichayan.webp";
+import YMLabsLogo from "public/brandslogo/ymlabs.webp";
 
 const experienceData = [
   {
