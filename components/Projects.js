@@ -9,6 +9,7 @@ import {
   Title
 } from "@mantine/core";
 import AuctionPic from "public/projectBanner/auction.jpg";
+import FindContestPic from "public/projectBanner/find-contest.jpg";
 import ICCCTPic from "public/projectBanner/iccct.jpg";
 import IsroInfoPic from "public/projectBanner/isroinfo.jpg";
 import IsteOdishaPic from "public/projectBanner/isteodisha.jpg";
@@ -18,7 +19,6 @@ import PencilCommunityPic from "public/projectBanner/pencilcommunitypage.jpg";
 import { default as PlacementNoticeGenerator, default as UserGenerator } from "public/projectBanner/placementnoticegenerator.jpg";
 import ZigbeePic from "public/projectBanner/zigbee.jpg";
 import ProjectCard from "./ProjectCard";
-
 const projectData1 = [
   {
     projectPic: AuctionPic,
@@ -54,6 +54,14 @@ const projectData2 = [
     liveLink: "https://isro-work-info.netlify.app/",
     githubLink: "https://github.com/AshutoshDash1999/ISRO-info",
     techUsed: ["React", "TailwindCSS", "Netlify"],
+  },
+  {
+    projectPic: FindContestPic,
+    projectName: "Find Contest",
+    projectDescription: "Show upcoming and active competitive programming competitions.",
+    liveLink: "https://find-contest.vercel.app/",
+    githubLink: "https://github.com/AshutoshDash1999/find-contest",
+    techUsed: ["NextJS", "Mantine", "Vercel"],
   },
 ];
 const projectData3 = [
