@@ -56,7 +56,9 @@ const ProjectCard = ({
         alt="With default placeholder"
         blurDataURL={projectPic?.blurDataURL}
       />
-      <Title weight={600} order={3}>{projectName}</Title>
+      <Title weight={600} order={3}>
+        {projectName}
+      </Title>
       <Text fw={600} fz="xl" c="dimmed">
         {projectDescription}
       </Text>
@@ -80,23 +82,24 @@ const ProjectCard = ({
               Code
             </Button>
           </Link>
-        ) : (
-          ""
-        )}
-        <Link target="_blank" href={`${liveLink}`}>
-          <Button radius="xl" className={classes.cardButtn}>
-            <Flex  gap={"xs"} align="center">
-              <Text span>Live</Text>
-              <Image
-                style={{ color: "#ffffff" }}
-                src="./external-link.svg"
-                alt={`${projectName}'s Live Demo`}
-                width={20}
-                height={20}
-              />
-            </Flex>
-          </Button>
-        </Link>
+        ) : null}
+        
+        {liveLink ? (
+          <Link target="_blank" href={`${liveLink}`}>
+            <Button radius="xl" className={classes.cardButtn}>
+              <Flex gap={"xs"} align="center">
+                <Text span>Live</Text>
+                <Image
+                  style={{ color: "#ffffff" }}
+                  src="./external-link.svg"
+                  alt={`${projectName}'s Live Demo`}
+                  width={20}
+                  height={20}
+                />
+              </Flex>
+            </Button>
+          </Link>
+        ) : null}
       </Flex>
     </Box>
   );

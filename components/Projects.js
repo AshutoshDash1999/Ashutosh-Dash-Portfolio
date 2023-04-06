@@ -10,13 +10,17 @@ import {
 } from "@mantine/core";
 import AuctionPic from "public/projectBanner/auction.jpg";
 import FindContestPic from "public/projectBanner/find-contest.jpg";
+import GTAPic from "public/projectBanner/gta.jpg";
 import ICCCTPic from "public/projectBanner/iccct.jpg";
 import IsroInfoPic from "public/projectBanner/isroinfo.jpg";
 import IsteOdishaPic from "public/projectBanner/isteodisha.jpg";
 import KeydrumPic from "public/projectBanner/keydrum.jpg";
 import OpenCountryPic from "public/projectBanner/opencountry.jpg";
 import PencilCommunityPic from "public/projectBanner/pencilcommunitypage.jpg";
-import { default as PlacementNoticeGenerator, default as UserGenerator } from "public/projectBanner/placementnoticegenerator.jpg";
+import {
+  default as PlacementNoticeGenerator,
+  default as UserGenerator
+} from "public/projectBanner/placementnoticegenerator.jpg";
 import ZigbeePic from "public/projectBanner/zigbee.jpg";
 import ProjectCard from "./ProjectCard";
 const projectData1 = [
@@ -31,10 +35,21 @@ const projectData1 = [
   {
     projectPic: ICCCTPic,
     projectName: "ICCCT",
-    projectDescription: "Official site for International Conference on Communication and Computational Techniques 2023",
+    projectDescription:
+      "Official site for International Conference on Communication and Computational Techniques 2023",
     liveLink: "https://csoutr.in/",
     githubLink: "https://github.com/AshutoshDash1999/iccct-2023",
     techUsed: ["React", "Typescript", "NextJS", "ChakraUI", "Netlify"],
+  },
+  {
+    projectPic: GTAPic,
+    projectName: "Get That API",
+    projectDescription:
+      "A free API testing browser extension to test your API with GET, POST, PUT, PATCH, DELETE methods.",
+    liveLink: "",
+    githubLink:
+      "https://github.com/AshutoshDash1999/get-that-api-browser-extension",
+    techUsed: ["HTML", "CSS", "JavaScript", "React", "Axios"],
   },
 ];
 
@@ -50,7 +65,8 @@ const projectData2 = [
   {
     projectPic: IsroInfoPic,
     projectName: "ISRO Information",
-    projectDescription: "A website for showing all the ISRO's spacecrafts, lanchers, satellites and centers.",
+    projectDescription:
+      "A website for showing all the ISRO's spacecrafts, lanchers, satellites and centers.",
     liveLink: "https://isro-work-info.netlify.app/",
     githubLink: "https://github.com/AshutoshDash1999/ISRO-info",
     techUsed: ["React", "TailwindCSS", "Netlify"],
@@ -58,7 +74,8 @@ const projectData2 = [
   {
     projectPic: FindContestPic,
     projectName: "Find Contest",
-    projectDescription: "Show upcoming and active competitive programming competitions.",
+    projectDescription:
+      "Show upcoming and active competitive programming competitions.",
     liveLink: "https://find-contest.vercel.app/",
     githubLink: "https://github.com/AshutoshDash1999/find-contest",
     techUsed: ["NextJS", "Mantine", "Vercel"],
@@ -76,9 +93,11 @@ const projectData3 = [
   {
     projectPic: PlacementNoticeGenerator,
     projectName: "Placement Notice Generator",
-    projectDescription: "Web tool to generate placement drive notice in WhatsApp/Telegram format.",
+    projectDescription:
+      "Web tool to generate placement drive notice in WhatsApp/Telegram format.",
     liveLink: "https://placement-notice-generator.vercel.app/",
-    githubLink: "https://github.com/AshutoshDash1999/placement-notice-generator",
+    githubLink:
+      "https://github.com/AshutoshDash1999/placement-notice-generator",
     techUsed: ["React", "Typescript", "MantineUI", "Vercel"],
   },
 ];
