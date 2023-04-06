@@ -39,29 +39,29 @@ const useStyles = createStyles((theme) => ({
       transform: "translateY(-5px)",
     },
   },
-  socialIconImg:{
-    objectFit:"contain",
+  socialIconImg: {
+    objectFit: "contain",
     transition: "all 0.5s ease-in-out",
   },
-  helloBtn:{
+  helloBtn: {
     transition: "all 0.5s",
     "&:hover": {
       transform: "translateY(-5px)",
       boxShadow: "0px 8px 15px rgba(0, 0, 0, 0.1)",
     },
   },
-  resumeLink:{
+  resumeLink: {
     transition: "all 0.5s",
     "&:hover": {
       transform: "translateY(-5px)",
       textShadow: "0px 8px 15px rgba(0, 0, 0, 0.1)",
     },
-  }
+  },
 }));
 
 const Contact = () => {
   const { classes } = useStyles();
-  const largeScreen = useMediaQuery('(min-width: 550px)');
+  const largeScreen = useMediaQuery("(min-width: 550px)");
 
   return (
     <>
@@ -77,10 +77,50 @@ const Contact = () => {
           borderRadius: theme.radius.lg,
         })}
       >
-        <Flex justify={"space-between"} gap="lg" align="center" direction={largeScreen?"row":"column"}>
-          <Link href="https://api.whatsapp.com/send/?phone=919348907638&text=Hi%2C+Ashutosh,+I+went+through+your+profile+and+I+really+like+it.+Would+you+mind+sharing+an+opportunity+with+you+?" style={{textDecoration:"none"}}>
+        <Flex
+          justify={"space-between"}
+          gap="lg"
+          align="center"
+          direction={largeScreen ? "row" : "column"}
+        >
+          <Link
+            href="https://api.whatsapp.com/send/?phone=919348907638&text=Hi%2C+Ashutosh,+I+went+through+your+profile+and+I+really+like+it.+Would+you+mind+sharing+an+opportunity+with+you+?"
+            style={{ textDecoration: "none" }}
+          >
             <Text
-            className={classes.helloBtn}
+              fw={700}
+              fz="xl"
+              color="dark.6"
+              className={classes.resumeLink}
+            >
+              Say Hello
+            </Text>
+          </Link>
+          <Flex gap={"lg"} direction={largeScreen ? "row" : "column"}>
+            {socialLinksData.map((item) => (
+              <Link
+                key={item.name}
+                href={item.url}
+                target="_blank"
+                className={classes.socialIcon}
+              >
+                <Image
+                  className={classes.socialIconImg}
+                  src={item.logo.src}
+                  alt={item.name}
+                  height={40}
+                  width={40}
+                  blurDataURL={item.logo.blurDataURL}
+                />
+              </Link>
+            ))}
+          </Flex>
+          <Link
+            href="/Ashutosh_Dash_Frontend_Dev.pdf"
+            style={{ textDecoration: "none" }}
+          >
+            <Text
+              className={classes.helloBtn}
               px={"xl"}
               py="sm"
               fz="lg"
@@ -91,26 +131,6 @@ const Contact = () => {
                 color: theme.colors.gray[0],
               })}
             >
-              Say Hello
-            </Text>
-          </Link>
-          <Flex gap={"lg"} direction={largeScreen?"row":"column"}>
-            {socialLinksData.map((item) => (
-              <Link
-                key={item.name}
-                href={item.url}
-                target="_blank"
-                className={classes.socialIcon}
-              >
-                <Image className={classes.socialIconImg} src={item.logo.src} alt={item.name} height={40} width={40} blurDataURL={item.logo.blurDataURL} />
-              </Link>
-            ))}
-          </Flex>
-          <Link
-            href="/Ashutosh_Dash_Frontend_Dev.pdf"
-            style={{ textDecoration: "none" }}
-          >
-            <Text fw={700} fz="xl" color="dark.6" className={classes.resumeLink}>
               Hire Me?
             </Text>
           </Link>

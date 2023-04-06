@@ -64,7 +64,7 @@ const ProjectCard = ({
       </Text>
       <Flex wrap={"wrap"} gap="sm" my="md">
         {techUsed.map((tools) => (
-          <Badge key={tools} radius="sm" variant="filled">
+          <Badge key={tools} variant="filled">
             {tools}
           </Badge>
         ))}

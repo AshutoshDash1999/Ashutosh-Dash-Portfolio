@@ -162,17 +162,6 @@ const useStyles = createStyles((theme) => ({
   descriptionText: {
     transition: "all 0.5s",
   },
-  roleText: {
-    borderBottom: "4px solid",
-    transition: "all 0.5s",
-    animation: `${borderColorTransition} 15s ease-in-out infinite`,
-    [`@media (max-width: ${theme.breakpoints.md}px)`]: {
-      borderBottom: "3px solid",
-    },
-    [`@media (max-width: ${theme.breakpoints.sm}px)`]: {
-      borderBottom: "2px solid",
-    },
-  },
   badge: {
     transition: "all 0.5s",
   },
