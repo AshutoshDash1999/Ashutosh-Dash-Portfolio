@@ -10,17 +10,11 @@ import {
 } from "@mantine/core";
 import AuctionPic from "public/projectBanner/auction.jpg";
 import FindContestPic from "public/projectBanner/find-contest.jpg";
-import GTAPic from "public/projectBanner/gta.jpg";
+import GTAPic from "public/projectBanner/get-that-api.webp";
 import ICCCTPic from "public/projectBanner/iccct.jpg";
 import IsroInfoPic from "public/projectBanner/isroinfo.jpg";
 import IsteOdishaPic from "public/projectBanner/isteodisha.jpg";
-import KeydrumPic from "public/projectBanner/keydrum.jpg";
-import OpenCountryPic from "public/projectBanner/opencountry.jpg";
-import PencilCommunityPic from "public/projectBanner/pencilcommunitypage.jpg";
-import {
-  default as PlacementNoticeGenerator,
-  default as UserGenerator
-} from "public/projectBanner/placementnoticegenerator.jpg";
+import PlacementNoticeGenerator from "public/projectBanner/placementnoticegenerator.jpg";
 import ZigbeePic from "public/projectBanner/zigbee.jpg";
 import ProjectCard from "./ProjectCard";
 const projectData1 = [
@@ -46,7 +40,7 @@ const projectData1 = [
     projectName: "Get That API",
     projectDescription:
       "A free API testing browser extension to test your API with GET, POST, PUT, PATCH, DELETE methods.",
-    liveLink: "",
+    liveLink: "https://chrome.google.com/webstore/detail/get-that-api/dogjkacjoihbjjhmdnpoidblknfaocao",
     githubLink:
       "https://github.com/AshutoshDash1999/get-that-api-browser-extension",
     techUsed: ["HTML", "CSS", "JavaScript", "React", "Axios"],
@@ -99,7 +93,7 @@ const projectData3 = [
     githubLink:
       "https://github.com/AshutoshDash1999/placement-notice-generator",
     techUsed: ["React", "Typescript", "MantineUI", "Vercel"],
-  },
+  }
 ];
 
 const useStyles = createStyles((theme) => ({
