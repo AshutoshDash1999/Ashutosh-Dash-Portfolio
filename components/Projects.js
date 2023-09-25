@@ -1,12 +1,12 @@
 import {
-  Box,
-  Container,
-  createStyles,
-  Grid,
-  Image,
-  Stack,
-  Text,
-  Title
+    Box,
+    Container,
+    createStyles,
+    Grid,
+    Image,
+    Stack,
+    Text,
+    Title
 } from "@mantine/core";
 import AuctionPic from "public/projectBanner/auction.jpg";
 import FindContestPic from "public/projectBanner/find-contest.jpg";
@@ -15,6 +15,7 @@ import ICCCTPic from "public/projectBanner/iccct.jpg";
 import IsroInfoPic from "public/projectBanner/isroinfo.jpg";
 import IsteOdishaPic from "public/projectBanner/isteodisha.jpg";
 import PlacementNoticeGenerator from "public/projectBanner/placementnoticegenerator.jpg";
+import ReactWeatherApp from "public/projectBanner/weather-app.jpg";
 import ZigbeePic from "public/projectBanner/zigbee.jpg";
 import ProjectCard from "./ProjectCard";
 const projectData1 = [
@@ -40,7 +41,8 @@ const projectData1 = [
     projectName: "Get That API",
     projectDescription:
       "A free API testing browser extension to test your API with GET, POST, PUT, PATCH, DELETE methods.",
-    liveLink: "https://chrome.google.com/webstore/detail/get-that-api/dogjkacjoihbjjhmdnpoidblknfaocao",
+    liveLink:
+      "https://chrome.google.com/webstore/detail/get-that-api/dogjkacjoihbjjhmdnpoidblknfaocao",
     githubLink:
       "https://github.com/AshutoshDash1999/get-that-api-browser-extension",
     techUsed: ["HTML", "CSS", "JavaScript", "React", "Axios"],
@@ -93,7 +95,16 @@ const projectData3 = [
     githubLink:
       "https://github.com/AshutoshDash1999/placement-notice-generator",
     techUsed: ["React", "Typescript", "MantineUI", "Vercel"],
-  }
+  },
+  {
+    projectPic: ReactWeatherApp,
+    projectName: "Weather Town",
+    projectDescription:
+      "Web tool to know the weather and forecast around your city",
+    liveLink: "https://weather-town.netlify.app",
+    githubLink: "https://github.com/AshutoshDash1999/Weather-Town",
+    techUsed: ["React", "TailwindCSS", "Netlify", "OpenWeatherMap"],
+  },
 ];
 
 const useStyles = createStyles((theme) => ({
