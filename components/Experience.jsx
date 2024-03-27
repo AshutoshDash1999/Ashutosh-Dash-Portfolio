@@ -1,30 +1,38 @@
 import { Box, Container, Flex, Image, Text, Title } from "@mantine/core";
 import Link from "next/link";
+import BadhoLogo from "public/brandslogo/badho.webp";
 import BookingjiniLogo from "public/brandslogo/bookingjini.webp";
 import VichayanLogo from "public/brandslogo/vichayan.webp";
 import YMLabsLogo from "public/brandslogo/ymlabs.webp";
 
 const experienceData = [
   {
+    companyName: "badho",
+    logo: BadhoLogo,
+    companySite: "http://badho.in/",
+    role: "Full Stack Developer",
+    period: "October 2023 - Present",
+  },
+  {
     companyName: "bookingjini",
     logo: BookingjiniLogo,
     companySite: "http://bookingjini.com/",
     role: "Frontend Developer",
-    period: "01 February 2022 - Present",
+    period: "February 2023 - September 2023",
   },
   {
     companyName: "vichayan",
     logo: VichayanLogo,
     companySite: "http://vichayan.com/",
     role: "Frontend Developer",
-    period: "01 September 2022 - 31 October 2022",
+    period: "September 2022 - October 2022",
   },
   {
     companyName: "ymlabs",
     logo: YMLabsLogo,
     companySite: "https://yellmonlabs.com/",
     role: "UI Developer",
-    period: "05 May 2022 - 31 July 2022",
+    period: "May 2022 - July 2022",
   },
 ];
 
@@ -56,9 +64,22 @@ const Experience = () => {
               cursor: "pointer",
             })}
           >
-            <Image alt={item.companyName} fit="contain" height={100} src={item.logo.src}/>
-            <Link target="_blank" style={{ textDecoration: "none", color:"black" }} href={item.companySite}>{item.companySite}</Link>
-            <Text fz="xl" fw={800}>{item.role}</Text>
+            <Image
+              alt={item.companyName}
+              fit="contain"
+              height={100}
+              src={item.logo.src}
+            />
+            <Link
+              target="_blank"
+              style={{ textDecoration: "none", color: "black" }}
+              href={item.companySite}
+            >
+              {item.companySite}
+            </Link>
+            <Text fz="xl" fw={800}>
+              {item.role}
+            </Text>
             <Text>{item.period}</Text>
           </Box>
         ))}
