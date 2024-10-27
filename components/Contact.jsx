@@ -67,7 +67,7 @@ const Contact = () => {
     <>
       <Container
         size="xl"
-        my="xl"
+        m="xl"
         sx={(theme) => ({
           backgroundColor:
             theme.colorScheme === "dark"

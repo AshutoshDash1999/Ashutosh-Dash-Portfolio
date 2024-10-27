@@ -33,15 +33,18 @@ const BlogCard = ({
               width: "100%",
               borderRadius: "20px",
               objectFit: "cover",
+              height: "160px",
             }}
             src={coverImage}
-            height={160}
-            width={200}
+            height={260}
+            width={400}
             alt={title}
           />
         </Card.Section>
 
-        <Text weight={600} pt={"md"}>{title}</Text>
+        <Text weight={600} pt={"md"}>
+          {title}
+        </Text>
         <Text size="sm" color="dimmed">
           {description}
         </Text>
